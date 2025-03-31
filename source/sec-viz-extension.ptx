@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-viz-extension" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Using Generative AI When You Aren't Sure How to Create a Visualization in Tableau</title>
+
+<introduction>
+<p>
+
+Sometimes you might want to create a certain visualization in Tableau, but if it doesn't show up as one of the recommended options, you might not be sure what to do.  We can use Generative AI to quickly learn the steps to create visualizations!
+</p>
+  </introduction>
+
+
+<exercise>
+    <title>Sankey Chart Using Viz Extension</title>
+    
+    <p>
+        We want to use Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.
+    </p>
+    <p>
+         <url href="external/sheets/2023NBAPlayoffs.xlsx" />
+    </p>
+    <p>
+         <image source="NBASankey.png" width="100%"></image>
+
+
+    </p>
+
+    <p>
+        Here is a link where you can access a Tableau workbook connected to this Excel file and edit it in Tableau Public:
+    </p>
+    <p>
+        <url href="https://public.tableau.com/app/profile/lauren.nelsen/viz/NBAPlayoffs2023_17434524574570/Sheet1">Link to Tableau Public workbook</url>
+    </p>
+
+    <p>
+        Ask Copilot how to create a Sankey chart for this data in Excel.  Try to use the instructions to create this chart in Tableau.
+    </p>
+
+    <p>
+        Questions to consider:
+
+        <ol>
+            <li>
+                <p>
+                    Are the steps given by Copilot correct/helpful?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Is this the best way to visualize this data?
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    Is there anything confusing about this visualization?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)
+                </p>
+            </li>
+        </ol>
+    </p>
+    
+</exercise>
+
+
+
+ 
+</section>

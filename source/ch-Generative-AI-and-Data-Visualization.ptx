@@ -12,6 +12,8 @@
   <xi:include href="sec-describe-visualization.ptx" />
   <xi:include href="sec-create-visualization.ptx" />
   <xi:include href="sec-Calculated-Fields-Tableau.ptx" />
+    <xi:include href="sec-viz-extension.ptx" />
+
 
 
 </chapter>
