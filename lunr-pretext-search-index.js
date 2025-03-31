@@ -70,7 +70,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Using Generative AI to Describe a Data Visualization",
-  "body": " Using Generative AI to Describe a Data Visualization   In the following examples, we'll use generative AI to generate a description of an image. After generating the description, think about the following questions:     Is the image you used misleading in any way?    Is the description accurate?    Is there anything notable that the generated description does not mention\/include?    Does the description make sense?     Also think about what other questions you have based on the description that is given.   Practice generating a description Choose (or create) a visualization of data that you want to describe. Use either ChatGPT or Copilot to generate a description of the image. If you aren't sure what image to use, here are some that you can try:     This image is from       This image is from the budgeting software Monarch .       This data is from      Transfer Student Dashboard We can also use generative AI to summarize a dashboard and identify key insights instead of summarizing or describing one individual chart. Use Copilot or ChatGPT to summarize the dashboard shown in the image below:   This image is from   "
+  "body": " Using Generative AI to Describe a Data Visualization   In the following examples, we'll use generative AI to generate a description of an image. After generating the description, think about the following questions:     Is the image you used misleading in any way?    Is the description accurate?    Is there anything notable that the generated description does not mention\/include?    Does the description make sense?     Also think about what other questions you have based on the description that is given.   Practice generating a description Choose (or create) a visualization of data that you want to describe. Use either ChatGPT or Copilot to generate a description of the image. If you aren't sure what image to use, here are some that you can try:     This image is from       This image is from the budgeting software Monarch .       This data is from           Transfer Student Dashboard We can also use generative AI to summarize a dashboard and identify key insights instead of summarizing or describing one individual chart. Use Copilot or ChatGPT to summarize the dashboard shown in the image below:   This image is from   "
 },
 {
   "id": "sec-describe-visualization-3",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.1",
   "title": "Practice generating a description.",
-  "body": "Practice generating a description Choose (or create) a visualization of data that you want to describe. Use either ChatGPT or Copilot to generate a description of the image. If you aren't sure what image to use, here are some that you can try:     This image is from       This image is from the budgeting software Monarch .       This data is from     "
+  "body": "Practice generating a description Choose (or create) a visualization of data that you want to describe. Use either ChatGPT or Copilot to generate a description of the image. If you aren't sure what image to use, here are some that you can try:     This image is from       This image is from the budgeting software Monarch .       This data is from          "
 },
 {
   "id": "sec-describe-visualization-4",
@@ -170,6 +170,24 @@ var ptx_lunr_docs = [
   "number": "2.3.1",
   "title": "2023 National Survey of Children’s Health.",
   "body": "2023 National Survey of Children’s Health  Use the link below to open and edit a Tableau workbook in Tableau Public that includes data from the 2023 National Survey of Children’s Health. Here is a link to information about the dataset: Link to information about variables   (If you have not used Tableau Public before, you will need to create a Tableau Public account.)   Link to Blank Census Kids Data Workbook on Tableau Public    We want to understand the proportion of children who need or currently take medication. The relevant field in the survey is labeled C_K2Q10 . We want to find the number of responses with a 1 and divide by the total number of responses. You might have done things like this in Excel, but Tableau is a little different. Use ChatGPT or Copilot and ask If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a 1 in a calculated field in Tableau?  Check to see if you get the answer below, and then create this calculated field in Tableau.  SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q10])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or currently take medication.  Now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy. (This is in C_K2Q19 .)  SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q19])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.  "
+},
+{
+  "id": "sec-viz-extension",
+  "level": "1",
+  "url": "sec-viz-extension.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Using Generative AI When You Aren’t Sure How to Create a Visualization in Tableau",
+  "body": " Using Generative AI When You Aren't Sure How to Create a Visualization in Tableau   Sometimes you might want to create a certain visualization in Tableau, but if it doesn't show up as one of the recommended options, you might not be sure what to do. We can use Generative AI to quickly learn the steps to create visualizations!   Sankey Chart Using Viz Extension We want to use Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.     Here is a link where you can access a Tableau workbook connected to this Excel file and edit it in Tableau Public:  Link to Tableau Public workbook  Ask Copilot how to create a Sankey chart for this data in Excel. Try to use the instructions to create this chart in Tableau. Questions to consider:   Are the steps given by Copilot correct\/helpful?    Is this the best way to visualize this data?    Is there anything confusing about this visualization?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)     "
+},
+{
+  "id": "sec-viz-extension-3",
+  "level": "2",
+  "url": "sec-viz-extension.html#sec-viz-extension-3",
+  "type": "Example",
+  "number": "2.4.1",
+  "title": "Sankey Chart Using Viz Extension.",
+  "body": "Sankey Chart Using Viz Extension We want to use Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.     Here is a link where you can access a Tableau workbook connected to this Excel file and edit it in Tableau Public:  Link to Tableau Public workbook  Ask Copilot how to create a Sankey chart for this data in Excel. Try to use the instructions to create this chart in Tableau. Questions to consider:   Are the steps given by Copilot correct\/helpful?    Is this the best way to visualize this data?    Is there anything confusing about this visualization?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)    "
 },
 {
   "id": "backmatter-2",
