@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-analyzing-Pixar-films-Excel" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Analyzing Pixar film data in Excel</title>
+
+<introduction>
+    <p>
+        Use this link to open an Excel file in Office 365:
+        <url href="https://uccsoffice365-my.sharepoint.com/:x:/g/personal/lnelsen_uccs_edu/EbDtB_LMJ1tFnhQjizKCGdAByCd4DRP4knt7jSA1X65kGw?e=ClvpqM">Pixar Film Data</url>
+        
+    </p>
+    <p>
+        Go to <q>File</q> and create a copy of this file online:
+         <image source="createcopy.png" width="60%">
+</image>
+
+    </p>
+    <p>
+        Click on the Copilot icon so that a Copilot window shows up on your screen:
+        <image source="copilotinexcel.png" width="60%">
+</image>
+    </p>
+</introduction>
+
+
+
+
+
+<p>
+    Now let's use Copilot to investigate our data!
+</p>
+
+<example>
+    
+<p>
+    <ul>
+        <li>
+            <p>
+                What film did the best (or the worst) in the United States and Canada?
+            </p>
+        </li>
+        <li>
+            <p>
+                Sort the films from largest to smallest using worlwide box office sales [insert column].
+            </p>
+        </li>
+        <li>
+            <p>
+                Highlight any movies that had a worldwide sales amount that is less than the average
+            </p>
+        </li>
+        <li>
+            <p>
+                Create a column for profit...
+            </p>
+        </li>
+    </ul>
+</p>
+
+
+</example>
+
+<p>
+    Now let's practice using Copilot in Excel to create data visualizations.
+</p>
+
+
+<example>
+<p>
+    <ul>
+        <li>
+            <p>
+                Create a scatter plot for budget vs. worldwide sales.
+            </p>
+        </li>
+        <li>
+            <p>
+                Create a line chart showing the number of films released each year.
+            </p>
+        </li>
+        <li>
+            <p>
+                Make a table showing how many films were rated G and PG.
+            </p>
+        </li>
+        <li>
+            <p>
+                How did average profit for G movies compare to average profit for PG movies?
+            </p>
+        </li>
+        <li>
+            <p>
+                Make a boxplot for the Rotten Tomatoes Score.  Are there any outliers?
+            </p>
+        </li>
+    </ul>
+</p>
+</example>
+
+
+
+<example>
+    <ul>
+        <li>
+            <p>
+                Create a confidence interval for the mean box_office_worldwide in column E.
+            </p>
+        </li>
+        <li>
+            <p>
+                Create a regression model to predict box_office_worldwide based on budget.    
+            </p>
+            <ul>
+                <li>
+                    <p>
+                        Is there an error?  Why?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If you are able to use the response to create the model, how could you verify that it is correct?
+                    </p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</example>
+
+
+
+ 
+</section>
+
+

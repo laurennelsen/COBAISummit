@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-using-Copilot-to-learn-how" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Using Copilot to Learn How to do Things in Excel</title>
+
+<introduction>
+<p>
+At the moment, Copilot in Excel cannot do everything we might want it to do.  However, it can still be helpful for providing guidance if we are not sure how to do something in Excel.
+</p>
+    <p>
+        Use this link to open an Excel file in Office 365:
+        <url href="https://uccsoffice365-my.sharepoint.com/:x:/g/personal/lnelsen_uccs_edu/EQ6eMsH_QUNEi4iMWCScpyoBbpDA2L4Lef2fqt_dOOBKaw?e=fRP0UP">Dentists by state</url>
+        <fn>This data is from <url href="https://data.cdc.gov/NCHS/DQS-Dentists-by-state-United-States-/9epi-jrff/about_data" />.</fn>
+    </p>
+    <p>
+        Go to <q>File</q> and create a copy of this file online.
+    </p>
+
+    </introduction>
+
+
+<example>
+<title>
+Dentist Geographic Heat Map
+</title>
+
+<p>
+We want to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.
+</p>
+
+<p>
+<ol>
+
+    <li>
+        <p>
+            Ask Copilot to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.
+
+        </p>
+        <p>
+            Did it create a heat map?
+        </p>
+    </li>
+
+    <li>
+        <p>
+            Copilot probably did not create a heat map.  Let's ask it how we would do it ourselves using the prompt below.
+        </p>
+        <p>
+        <q>How do I create a geographic heat map for the number of dentists per 100,000 resident population in each state in 2021?</q>
+   
+        </p>
+        <p>
+            Follow the isntructions it gives to create the heat map.
+        </p>
+    </li>
+
+    </ol>
+    </p>
+
+    
+
+</example>
+
+
+ 
+</section>
+
+

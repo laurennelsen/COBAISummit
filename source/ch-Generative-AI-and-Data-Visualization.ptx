@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-Generative-AI-and-Data-Visualization" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Generative AI and Data Visualization</title>
+
+  <introduction>
+    <p> Generative AI can be useful when it comes to both creating visualizations of data and describing data visualizations. We are just going to briefly touch on some ways that your favorite AI generator can be used for these things.
+ </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-describe-visualization.ptx" />
+  <xi:include href="sec-create-visualization.ptx" />
+
+
+</chapter>

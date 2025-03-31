@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-create-visualization" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Using Generative AI to Create Data Visualizations</title>
+
+<introduction>
+    <p>
+    The analysis we can do and the visualizations we can create often depend on what version of a particular chatbot we are using.  Some won't do much analysis with the free versions.  (ChatGPT currently has Python incorporated into it and can do some of the analysis/creating of visualizations using Python, but the free version is limited in what it will do in one day.)
+</p>
+
+ <p>
+        In the examples below, think about what visualization would make sense to create to visualize some aspect(s) of the dataset.
+    </p>
+    <p>
+       Use either ChatGPT or Copilot to try to create that visualization.  Think about the following questions as you view any images/charts it creates:
+       <ul>
+        <li>
+            <p>
+                Is the chart misleading in any way?
+            </p>
+        </li>
+        <li>
+            <p>
+                Is the chart accurate?
+            </p>
+        </li>
+        <li>
+            <p>
+                Is there anything notable that the generated chart/image does not include?
+            </p>
+        </li>
+        <li>
+            <p>
+                Does the chart make sense?  (Are axes labeled/is it clear what is being shown?)
+            </p>
+        </li>
+       </ul>
+       </p>
+</introduction>
+
+
+
+<!-- <example>
+    <p>
+    The file below shows the number of Snapchat messages sent per day for a particular user.
+    </p>
+    <p>
+        <url href="external/sheets/Snapchat.xlsx" />
+
+    </p>
+    <p>
+        Think about what type of chart you would want to use to visualize the data and try to use either ChatGPT or Copilot to create a visualization of the data.
+    </p>
+</example>-->
+
+
+<example>
+    <title>US Home Sales</title>
+
+    <p>
+        The file <q>NewHouseSalesUS.xls</q> contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.  
+        </p>
+        <p>
+            <url href="external/sheets/NewHouseSalesUS.xls" />
+    
+        </p>
+        <p>
+        (This file can also be found at <url href="https://www.census.gov/construction/nrs/data/series.html" />.)
+        </p>
+
+        <hint>
+            <p>
+                Here are ideas for visualizations you can create:
+                <ul>
+                    <li>
+                        <p>
+                            Make a histogram showing the number of homes sold in each price range in a given year.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Make a line chart showing how the number of homes in the <m>\$300,000</m> to <m>\$399,000</m> price range has changed from 2002 to 2022.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </hint>
+    
+  </example>
+
+
+  <example>
+    <title>Colorado Childcare Data</title>
+
+    <p>
+    Download the file below that has data on licensed childcare facilities in Colorado:
+    <url href="external/sheets/Colorado_Licensed_Child_Care_Facilities_Report.csv" />
+    </p>
+
+    <p>
+        We're going to use this file to create a geographic heat map in Tableau.
+    </p>
+
+    
+    
+  </example>
+
+
+
+  <example>
+    <title>Maddison Project Database</title>
+    
+    <p>
+    <q>The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.</q>
+    </p>
+
+    <p>
+        Use the link below to download the Maddison Project Database as an Excel file for the period up to 2022:
+    </p>
+    <p>
+        <url href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023" />
+    </p>
+
+    <p>
+        Think about what visualizations would make sense to create with this data and use Tableau to create visualizations for a few different aspects of the data.
+    </p>
+
+  </example>
+
+
+   <example>
+    <title>Domestic Box Office</title>
+    
+    <p>
+        Download the file below showing box office totals for new movie releases starting in 2022 through mid-September 2024.
+    </p>
+    <p>
+        <url href="external/sheets/DomesticBoxOffice.xlsx" />
+
+    </p>
+
+    <p>
+        Create at least one visualization showing some aspect of this data.
+    </p>
+    
+  </example>
+
+
+
+<example>
+    <p>
+        Choose a larger dataset that you would like to analyze.  Try to use either ChatGPT or Copilot to create a visualization of the data.
+    </p>
+    <p>
+        Here are links to sites with datasets that you could use:
+        <ul>
+            <li>
+                <p>
+                            <url href="https://www.data-is-plural.com/archive/2023-01-11-edition/" >Data is Plural</url>
+
+                </p>
+            </li>
+            <li>
+                <p>
+                            <url href="https://github.com/probjects/ewf-database" >The English Women's Football (EWF) Database</url>
+
+                </p>
+            </li>
+        </ul>
+    </p>
+</example>
+
+ 
+</section>

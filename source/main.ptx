@@ -5,15 +5,15 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="uccs-conference-pretext-demo">
-    <title>UCCS Teaching and Learning Conference PreTeXt Demo</title>
-    <subtitle>Some examples to get you started</subtitle>
+    <title>COB AI Summit Examples</title>
+    <subtitle>May 2, 2025</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-introduction.ptx" />
-    <xi:include href="./ch-examples-of-problems.ptx" />
+    <xi:include href="./ch-Using-Copilot-in-Excel.ptx" />
+    <xi:include href="./ch-Generative-AI-and-Data-Visualization.ptx" />
 
 
     <!-- Include backmatter -->

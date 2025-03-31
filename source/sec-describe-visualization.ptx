@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-describe-visualization" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Using Generative AI to Describe a Data Visualization</title>
+
+
+<example>
+    <p>
+        Choose (or create) a visualization of data that you want to describe.
+    </p>
+    <p>
+       Use either ChatGPT or Copilot to generate a description of the image.  Think about the following questions after generating the description:
+       <ul>
+        <li>
+            <p>
+                (Is the image you used misleading in any way?)
+            </p>
+        </li>
+        <li>
+            <p>
+                Is the description accurate?
+            </p>
+        </li>
+        <li>
+            <p>
+                Is there anything notable that the generated description does not mention/include?
+            </p>
+        </li>
+        <li>
+            <p>
+                Does the description make sense?
+            </p>
+        </li>
+       </ul>
+    </p>
+    <p>
+        If you aren't sure what image to use, here are some that you can try:
+        <ul>
+
+            <li>
+                <p>
+                    
+                </p>
+            </li>
+
+
+
+            <li>
+                <p>
+                    <image source="MonarchSankey.png" width="60%"/> <fn>This image is from the budgeting software <em>Monarch</em>.</fn>
+                </p>
+            </li>
+          
+
+
+
+        </ul>
+    </p>
+</example>
+ 
+ 
+</section>
+
+
