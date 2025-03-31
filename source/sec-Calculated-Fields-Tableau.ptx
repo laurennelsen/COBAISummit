@@ -11,7 +11,7 @@ If you use Tableau, then you might have practice creating calculating fields in 
 </p>
   </introduction>
 
-<example>
+<exercise>
 <title>
 2023 National Survey of Children’s Health
 </title>
@@ -90,7 +90,7 @@ If you use Tableau, then you might have practice creating calculating fields in 
 
 
     </tasks>
-</example>
+</exercise>
 
 
 

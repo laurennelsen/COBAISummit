@@ -9,7 +9,7 @@
 </p>
 
  <p>
-        In the examples below, think about what visualization would make sense to create to visualize some aspect(s) of the dataset.
+        In the examples below, think about what visualization would make sense to create to visualize some aspect(s) of the dataset.  (It might help to ask some questions about the data before deciding what visualization to create.)
     </p>
     <p>
        Use either ChatGPT or Copilot to try to create that visualization.  Think about the following questions as you view any images/charts it creates:
@@ -54,7 +54,24 @@
 </example>-->
 
 
-<example>
+<exercise>
+    <title>2024 Paris Olympics</title>
+    
+    <p>
+        The file below contains data for medalists in the 2024 Paris Olympics.<fn>This data is from <url href="https://edjnet.github.io/OlympicsGoNUTS/2024/" /></fn></p>
+        <p>
+            <url href="external/sheets/NewHouseSalesUS.xls" />
+        </p>
+
+        <p>
+            Think about what visualizations would make sense to create with this data and create visualizations for a few different aspects of the data.
+        </p>
+        
+    
+</exercise>
+
+
+<exercise>
     <title>US Home Sales</title>
 
     <p>
@@ -86,10 +103,10 @@
             </p>
         </hint>
     
-  </example>
+  </exercise>
 
 
-  <example>
+  <exercise>
     <title>Colorado Childcare Data</title>
 
     <p>
@@ -103,15 +120,15 @@
 
     
     
-  </example>
+  </exercise>
 
 
 
-  <example>
+  <exercise>
     <title>Maddison Project Database</title>
     
     <p>
-    <q>The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.</q>
+    <q>The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.</q><fn><url href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023" /></fn>
     </p>
 
     <p>
@@ -122,13 +139,13 @@
     </p>
 
     <p>
-        Think about what visualizations would make sense to create with this data and use Tableau to create visualizations for a few different aspects of the data.
+        Think about what visualizations would make sense to create with this data and create visualizations for a few different aspects of the data.
     </p>
 
-  </example>
+  </exercise>
 
 
-   <example>
+   <exercise>
     <title>Domestic Box Office</title>
     
     <p>
@@ -143,11 +160,14 @@
         Create at least one visualization showing some aspect of this data.
     </p>
     
-  </example>
+  </exercise>
 
 
 
-<example>
+<exercise>
+<title>Practice with other datasets</title>
+
+
     <p>
         Choose a larger dataset that you would like to analyze.  Try to use either ChatGPT or Copilot to create a visualization of the data.
     </p>
@@ -168,7 +188,7 @@
             </li>
         </ul>
     </p>
-</example>
+</exercise>
 
  
 </section>

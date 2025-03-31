@@ -3,17 +3,15 @@
 <section xml:id="sec-describe-visualization" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Using Generative AI to Describe a Data Visualization</title>
 
-
-<example>
+  <introduction>
     <p>
-        Choose (or create) a visualization of data that you want to describe.
+        In the following examples, we'll use generative AI to generate a description of an image.  After generating the description, think about the following questions:
     </p>
     <p>
-       Use either ChatGPT or Copilot to generate a description of the image.  Think about the following questions after generating the description:
-       <ul>
+        <ul>
         <li>
             <p>
-                (Is the image you used misleading in any way?)
+                Is the image you used misleading in any way?
             </p>
         </li>
         <li>
@@ -34,12 +32,27 @@
        </ul>
     </p>
     <p>
+        Also think about what other questions you have based on the description that is given.
+    </p>
+  </introduction>
+
+
+<exercise>
+<title>Practice generating a description</title>
+
+
+    <p>
+        Choose (or create) a visualization of data that you want to describe.  Use either ChatGPT or Copilot to generate a description of the image.
+
+    </p>
+    <p>
         If you aren't sure what image to use, here are some that you can try:
         <ul>
 
             <li>
                 <p>
-                    
+                    <image source="Map.png" width="100%"/> <fn>This image is from <url href="https://public.tableau.com/app/profile/uccs.institutional.research/viz/UCCSTransferCohorts/Documentation" /></fn>
+
                 </p>
             </li>
 
@@ -47,16 +60,43 @@
 
             <li>
                 <p>
-                    <image source="MonarchSankey.png" width="60%"/> <fn>This image is from the budgeting software <em>Monarch</em>.</fn>
+                    <image source="MonarchSankey.png" width="100%"/> <fn>This image is from the budgeting software <em>Monarch</em>.</fn>
                 </p>
             </li>
           
+        <li>
+            <p>
+                <image source="Dentists.png" width="100%"/> <fn>This data is from <url href="https://data.cdc.gov/NCHS/DQS-Dentists-by-state-United-States-/9epi-jrff/about_data" /></fn>
 
+            </p>
+        </li>
 
 
         </ul>
     </p>
-</example>
+</exercise>
+
+
+
+<exercise>
+<title>Transfer Student Dashboard</title>
+
+
+<p>
+    We can also use generative AI to summarize a dashboard and identify key insights instead of summarizing or describing one individual chart.
+</p>
+
+<p>
+    Use Copilot or ChatGPT to summarize the dashboard shown in the image below:
+</p>
+
+<p>
+ 
+        <image source="Demographics.png" width="100%"/> <fn>This image is from <url href="https://public.tableau.com/app/profile/uccs.institutional.research/viz/UCCSTransferCohorts/Documentation" /></fn>
+            
+</p>
+    
+</exercise>
  
  
 </section>

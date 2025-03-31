@@ -19,7 +19,7 @@ At the moment, Copilot in Excel cannot do everything we might want it to do.  Ho
     </introduction>
 
 
-<example>
+<exercise>
 <title>
 Dentist Geographic Heat Map
 </title>
@@ -50,7 +50,7 @@ We want to create a geographic heat map showing the number of dentists per 100,0
    
         </p>
         <p>
-            Follow the isntructions it gives to create the heat map.
+            Follow the instructions it gives to create the heat map.
         </p>
     </li>
 
@@ -59,7 +59,7 @@ We want to create a geographic heat map showing the number of dentists per 100,0
 
     
 
-</example>
+</exercise>
 
 
  
