@@ -23,6 +23,9 @@
 </introduction>
 
 
+<p>
+    This file includes the budgets, gross sales data, release dates, and other facts about Pixar films. 
+</p>
 
 
 
@@ -41,17 +44,31 @@
         </li>
         <li>
             <p>
-                Sort the films from largest to smallest using worlwide box office sales [insert column].
+                Sort the films from largest to smallest using worlwide box office sales (column E).
             </p>
         </li>
         <li>
             <p>
-                Highlight any movies that had a worldwide sales amount that is less than the average
+                What is the average in Column C (US and Canada box office sales)?
             </p>
         </li>
         <li>
             <p>
-                Create a column for profit...
+                The average value in Column C should be <m>\$247{,}544{,}425.32</m>.  Have Excel highlight rows for which the value in Column C is less than <m>\$247{,}544{,}425.32</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                Highlight movies that were released after 2021.
+            </p>
+        </li>
+        <li>
+            <p>
+                The values in this dataset have not been adjusted for inflation.  Ask Copilot to create a column labeled <q>budget adjusted for inflation</q>, and adjust the values from column B for inflation, using the release dates in column F.
+            </p>
+
+            <p>
+                Create a column labeled <q>box office worldwide adjusted for inflation</q>, and adjust the values from column E for inflation, using the release dates in column F.  (Does Copilot adjust the values for inflation the same way it did to create column Q?  If not, adjust the formula from column Q to create this new column.)
             </p>
         </li>
     </ul>
@@ -66,49 +83,67 @@
 
 
 <exercise>
+<introduction>
+    <p>
+        Try using Copilot to create the visualization or to answer the question.
+    </p>
+</introduction>
 <p>
-    <ul>
-        <li>
+    <tasks>
+        <task>
             <p>
-                Create a scatter plot for budget vs. worldwide sales.
+                Create a scatter plot for budget adjusted for inflation vs. worldwide sales adjusted for inflation.  (If you insert the chart into the Excel sheet, is the chart correct?)
             </p>
-        </li>
-        <li>
+            <hint>
+                <p>
+                    Try the prompt: <q>Create a scatter plot using columns Q and R.
+
+</q>
+                </p>
+            </hint>
+        </task>
+        <task>
             <p>
                 Create a line chart showing the number of films released each year.
             </p>
-        </li>
-        <li>
+        </task>
+        <task>
             <p>
                 Make a table showing how many films were rated G and PG.
             </p>
-        </li>
-        <li>
+        </task>
+                <task>
             <p>
-                How did average profit for G movies compare to average profit for PG movies?
+                Make a bar chart for film ratings.
             </p>
-        </li>
-        <li>
+        </task>
+        <task>
             <p>
-                Make a boxplot for the Rotten Tomatoes Score.  Are there any outliers?
+                How did average worldwide box office sales for G movies compare to average worldwide box office sales for PG movies?
             </p>
-        </li>
-    </ul>
+        </task>
+
+        <task>
+            <p>
+                Create a box-and-whisker chart for the Rotten Tomatoes Score (in column J).  Are there any outliers?
+            </p>
+        </task>
+    </tasks>
 </p>
 </exercise>
 
 
 
 <exercise>
-    <ul>
-        <li>
+    <tasks>
+        <task>
             <p>
-                Create a confidence interval for the mean box_office_worldwide in column E.
+                Create a confidence interval for the mean box office worldwide sales adjusted for inflation in column R.
             </p>
-        </li>
-        <li>
+        </task>
+        <task>
             <p>
-                Create a regression model to predict box_office_worldwide based on budget.    
+                Create a regression model to predict box office worldwide sales adjusted for inflation based on budget adjusted for inflation.    
             </p>
             <ul>
                 <li>
@@ -121,9 +156,14 @@
                         If you are able to use the response to create the model, how could you verify that it is correct?
                     </p>
                 </li>
+                <li>
+                    <p>
+                        What box office sales would we predict using this model if the budget is <m>\$300{,}000{,}000</m>?
+                    </p>
+                </li>
             </ul>
-        </li>
-    </ul>
+        </task>
+    </tasks>
 </exercise>
 
 
