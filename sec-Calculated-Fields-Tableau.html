@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>COB AI Summit Examples</title>
+<title>Using Generative AI to Create Calculated Fields in Tableau</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -111,7 +111,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></span><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-create-visualization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Generative-AI-and-Data-Visualization.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -128,24 +128,41 @@ window.MathJax = {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-using-Copilot-to-learn-how.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Using Copilot to Learn How to do Things in Excel</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-Generative-AI-and-Data-Visualization.html" class="internal"><span class="codenumber">2</span> <span class="title">Generative AI and Data Visualization</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-describe-visualization.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Using Generative AI to Describe a Data Visualization</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-create-visualization.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Using Generative AI to Create Data Visualizations</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Calculated-Fields-Tableau.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using Generative AI to Create Calculated Fields in Tableau</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-Calculated-Fields-Tableau.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using Generative AI to Create Calculated Fields in Tableau</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="book" id="uccs-conference-pretext-demo"><nav class="summary-links"><ul>
-<li><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></li>
-<li><a href="ch-Using-Copilot-in-Excel.html" class="internal"><span class="codenumber">1</span> <span class="title">Using Copilot in Excel</span></a></li>
-<li><a href="ch-Generative-AI-and-Data-Visualization.html" class="internal"><span class="codenumber">2</span> <span class="title">Generative AI and Data Visualization</span></a></li>
-<li><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></li>
-</ul></nav></section></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-Calculated-Fields-Tableau"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.3</span><span class="space"> </span><span class="title">Using Generative AI to Create Calculated Fields in Tableau</span>
+</h2>
+<section class="introduction" id="sec-Calculated-Fields-Tableau-2"><div class="para" id="sec-Calculated-Fields-Tableau-2-1">If you use Tableau, then you might have practice creating calculating fields in Tableau.  The syntax in Tableau is different than in Excel, and you might want to create calculated fields in Tableau but not know the syntax for what you want to do.</div></section><details id="sec-Calculated-Fields-Tableau-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">2023 National Survey of Children’s Health.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="introduction" id="sec-Calculated-Fields-Tableau-3-2">
+<div class="para" id="sec-Calculated-Fields-Tableau-3-2-1">Use the link below to open and edit a Tableau workbook in Tableau Public that includes data from the 2023 National Survey of Children’s Health.  Here is a link to information about the dataset:  <a class="external" href="https://www2.census.gov/programs-surveys/nsch/technical-documentation/codebook/2023-NSCH-Screener-Variable-List.pdf" target="_blank">Link to information about variables</a><details class="ptx-footnote" aria-live="polite" id="sec-Calculated-Fields-Tableau-3-2-1-2"><summary class="ptx-footnote__number" title="Footnote 2.3.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-Calculated-Fields-Tableau-3-2-1-2"><code class="code-inline tex2jax_ignore">www2.census.gov/programs-surveys/nsch/technical-documentation/codebook/2023-NSCH-Screener-Variable-List.pdf</code></div></details>
+</div>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-2-2">(If you have not used Tableau Public before, you will need to create a Tableau Public account.)</div>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-2-3">
+<a class="external" href="https://public.tableau.com/app/profile/lauren.nelsen/viz/CensusKidsDataBlank/Sheet1" target="_blank">Link to Blank Census Kids Data Workbook on Tableau Public</a><details class="ptx-footnote" aria-live="polite" id="sec-Calculated-Fields-Tableau-3-2-3-2"><summary class="ptx-footnote__number" title="Footnote 2.3.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="sec-Calculated-Fields-Tableau-3-2-3-2"><code class="code-inline tex2jax_ignore">public.tableau.com/app/profile/lauren.nelsen/viz/CensusKidsDataBlank/Sheet1</code></div></details>
+</div>
+</div>
+<article class="task exercise-like" id="sec-Calculated-Fields-Tableau-3-3-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-3-1-1">We want to understand the proportion of children who need or currently take medication.  The relevant field in the survey is labeled “C_K2Q10”. <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/CensusDef.png" class="contained"></div> We want to find the number of responses with a “1” and divide by the total number of responses.</div>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-3-1-2">You might have done things like this in Excel, but Tableau is a little different.</div>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-3-1-3">Use ChatGPT or Copilot and ask “If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a “1” in a calculated field in Tableau?”</div>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-3-1-4">Check to see if you get the answer below, and then create this calculated field in Tableau.</div>
+<details id="sec-Calculated-Fields-Tableau-3-3-1-5" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-Calculated-Fields-Tableau-3-3-1-5-1">SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)/COUNT([C K2Q10])</div></div></details></article> <article class="task exercise-like" id="sec-Calculated-Fields-Tableau-3-3-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-3-2-1">Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or currently take medication.</div></article> <article class="task exercise-like" id="sec-Calculated-Fields-Tableau-3-3-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-3-3-1">Now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.  (This is in “C_K2Q19”.)</div>
+<details id="sec-Calculated-Fields-Tableau-3-3-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-Calculated-Fields-Tableau-3-3-3-2-1">SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)/COUNT([C K2Q19])</div></div></details></article> <article class="task exercise-like" id="sec-Calculated-Fields-Tableau-3-3-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="sec-Calculated-Fields-Tableau-3-3-4-1">Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.</div></article></article></details></section></div>
 <div class="ptx-content-footer">
-<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-create-visualization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

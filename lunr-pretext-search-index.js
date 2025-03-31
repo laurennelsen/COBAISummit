@@ -136,6 +136,24 @@ var ptx_lunr_docs = [
   "body": " Choose a larger dataset that you would like to analyze. Try to use either ChatGPT or Copilot to create a visualization of the data.  Here are links to sites with datasets that you could use:    Data is Plural      The English Women's Football (EWF) Database      "
 },
 {
+  "id": "sec-Calculated-Fields-Tableau",
+  "level": "1",
+  "url": "sec-Calculated-Fields-Tableau.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "Using Generative AI to Create Calculated Fields in Tableau",
+  "body": " Using Generative AI to Create Calculated Fields in Tableau   If you use Tableau, then you might have practice creating calculating fields in Tableau. The syntax in Tableau is different than in Excel, and you might want to create calculated fields in Tableau but not know the syntax for what you want to do.    2023 National Survey of Children’s Health   Use the link below to open and edit a Tableau workbook in Tableau Public that includes data from the 2023 National Survey of Children’s Health. Here is a link to information about the dataset: Link to information about variables   (If you have not used Tableau Public before, you will need to create a Tableau Public account.)   Link to Blank Census Kids Data Workbook on Tableau Public     We want to understand the proportion of children who need or currently take medication. The relevant field in the survey is labeled C_K2Q10 . We want to find the number of responses with a 1 and divide by the total number of responses. You might have done things like this in Excel, but Tableau is a little different. Use ChatGPT or Copilot and ask If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a 1 in a calculated field in Tableau?  Check to see if you get the answer below, and then create this calculated field in Tableau.  SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q10])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or currently take medication.  Now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy. (This is in C_K2Q19 .)  SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q19])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.    "
+},
+{
+  "id": "sec-Calculated-Fields-Tableau-3",
+  "level": "2",
+  "url": "sec-Calculated-Fields-Tableau.html#sec-Calculated-Fields-Tableau-3",
+  "type": "Example",
+  "number": "2.3.1",
+  "title": "2023 National Survey of Children’s Health.",
+  "body": " 2023 National Survey of Children’s Health   Use the link below to open and edit a Tableau workbook in Tableau Public that includes data from the 2023 National Survey of Children’s Health. Here is a link to information about the dataset: Link to information about variables   (If you have not used Tableau Public before, you will need to create a Tableau Public account.)   Link to Blank Census Kids Data Workbook on Tableau Public     We want to understand the proportion of children who need or currently take medication. The relevant field in the survey is labeled C_K2Q10 . We want to find the number of responses with a 1 and divide by the total number of responses. You might have done things like this in Excel, but Tableau is a little different. Use ChatGPT or Copilot and ask If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a 1 in a calculated field in Tableau?  Check to see if you get the answer below, and then create this calculated field in Tableau.  SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q10])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or currently take medication.  Now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy. (This is in C_K2Q19 .)  SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q19])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
