@@ -16,34 +16,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Analyzing Pixar film data in Excel",
-  "body": " Analyzing Pixar film data in Excel   Use this link to open an Excel file in Office 365: Pixar Film Data   Go to File and create a copy of this file online:    Click on the Copilot icon so that a Copilot window shows up on your screen:     Now let's use Copilot to investigate our data!     What film did the best (or the worst) in the United States and Canada?    Sort the films from largest to smallest using worlwide box office sales [insert column].    Highlight any movies that had a worldwide sales amount that is less than the average    Create a column for profit...     Now let's practice using Copilot in Excel to create data visualizations.     Create a scatter plot for budget vs. worldwide sales.    Create a line chart showing the number of films released each year.    Make a table showing how many films were rated G and PG.    How did average profit for G movies compare to average profit for PG movies?    Make a boxplot for the Rotten Tomatoes Score. Are there any outliers?       Create a confidence interval for the mean box_office_worldwide in column E.    Create a regression model to predict box_office_worldwide based on budget.    Is there an error? Why?    If you are able to use the response to create the model, how could you verify that it is correct?      "
+  "body": " Analyzing Pixar film data in Excel   Use this link to open an Excel file in Office 365: Pixar Film Data   Go to File and create a copy of this file online:    Click on the Copilot icon so that a Copilot window shows up on your screen:     This file includes the budgets, gross sales data, release dates, and other facts about Pixar films.  Now let's use Copilot to investigate our data!     What film did the best (or the worst) in the United States and Canada?    Sort the films from largest to smallest using worlwide box office sales (column E).    What is the average in Column C (US and Canada box office sales)?    The average value in Column C should be . Have Excel highlight rows for which the value in Column C is less than .    Highlight movies that were released after 2021.    The values in this dataset have not been adjusted for inflation. Ask Copilot to create a column labeled budget adjusted for inflation , and adjust the values from column B for inflation, using the release dates in column F.  Create a column labeled box office worldwide adjusted for inflation , and adjust the values from column E for inflation, using the release dates in column F. (Does Copilot adjust the values for inflation the same way it did to create column Q? If not, adjust the formula from column Q to create this new column.)     Now let's practice using Copilot in Excel to create data visualizations.   Try using Copilot to create the visualization or to answer the question.    Create a scatter plot for budget adjusted for inflation vs. worldwide sales adjusted for inflation. (If you insert the chart into the Excel sheet, is the chart correct?)  Try the prompt: Create a scatter plot using columns Q and R.    Create a line chart showing the number of films released each year.  Make a table showing how many films were rated G and PG.  Make a bar chart for film ratings.  How did average worldwide box office sales for G movies compare to average worldwide box office sales for PG movies?  Create a box-and-whisker chart for the Rotten Tomatoes Score (in column J). Are there any outliers?     Create a confidence interval for the mean box office worldwide sales adjusted for inflation in column R.  Create a regression model to predict box office worldwide sales adjusted for inflation based on budget adjusted for inflation.   Is there an error? Why?    If you are able to use the response to create the model, how could you verify that it is correct?    What box office sales would we predict using this model if the budget is ?     "
 },
 {
-  "id": "sec-analyzing-Pixar-films-Excel-4",
+  "id": "sec-analyzing-Pixar-films-Excel-5",
   "level": "2",
-  "url": "sec-analyzing-Pixar-films-Excel.html#sec-analyzing-Pixar-films-Excel-4",
+  "url": "sec-analyzing-Pixar-films-Excel.html#sec-analyzing-Pixar-films-Excel-5",
   "type": "Example",
   "number": "1.1.1",
   "title": "",
-  "body": "   What film did the best (or the worst) in the United States and Canada?    Sort the films from largest to smallest using worlwide box office sales [insert column].    Highlight any movies that had a worldwide sales amount that is less than the average    Create a column for profit...    "
-},
-{
-  "id": "sec-analyzing-Pixar-films-Excel-6",
-  "level": "2",
-  "url": "sec-analyzing-Pixar-films-Excel.html#sec-analyzing-Pixar-films-Excel-6",
-  "type": "Example",
-  "number": "1.1.2",
-  "title": "",
-  "body": "   Create a scatter plot for budget vs. worldwide sales.    Create a line chart showing the number of films released each year.    Make a table showing how many films were rated G and PG.    How did average profit for G movies compare to average profit for PG movies?    Make a boxplot for the Rotten Tomatoes Score. Are there any outliers?    "
+  "body": "   What film did the best (or the worst) in the United States and Canada?    Sort the films from largest to smallest using worlwide box office sales (column E).    What is the average in Column C (US and Canada box office sales)?    The average value in Column C should be . Have Excel highlight rows for which the value in Column C is less than .    Highlight movies that were released after 2021.    The values in this dataset have not been adjusted for inflation. Ask Copilot to create a column labeled budget adjusted for inflation , and adjust the values from column B for inflation, using the release dates in column F.  Create a column labeled box office worldwide adjusted for inflation , and adjust the values from column E for inflation, using the release dates in column F. (Does Copilot adjust the values for inflation the same way it did to create column Q? If not, adjust the formula from column Q to create this new column.)    "
 },
 {
   "id": "sec-analyzing-Pixar-films-Excel-7",
   "level": "2",
   "url": "sec-analyzing-Pixar-films-Excel.html#sec-analyzing-Pixar-films-Excel-7",
   "type": "Example",
+  "number": "1.1.2",
+  "title": "",
+  "body": " Try using Copilot to create the visualization or to answer the question.    Create a scatter plot for budget adjusted for inflation vs. worldwide sales adjusted for inflation. (If you insert the chart into the Excel sheet, is the chart correct?)  Try the prompt: Create a scatter plot using columns Q and R.    Create a line chart showing the number of films released each year.  Make a table showing how many films were rated G and PG.  Make a bar chart for film ratings.  How did average worldwide box office sales for G movies compare to average worldwide box office sales for PG movies?  Create a box-and-whisker chart for the Rotten Tomatoes Score (in column J). Are there any outliers?   "
+},
+{
+  "id": "sec-analyzing-Pixar-films-Excel-8",
+  "level": "2",
+  "url": "sec-analyzing-Pixar-films-Excel.html#sec-analyzing-Pixar-films-Excel-8",
+  "type": "Example",
   "number": "1.1.3",
   "title": "",
-  "body": "  Create a confidence interval for the mean box_office_worldwide in column E.    Create a regression model to predict box_office_worldwide based on budget.    Is there an error? Why?    If you are able to use the response to create the model, how could you verify that it is correct?     "
+  "body": " Create a confidence interval for the mean box office worldwide sales adjusted for inflation in column R.  Create a regression model to predict box office worldwide sales adjusted for inflation based on budget adjusted for inflation.   Is there an error? Why?    If you are able to use the response to create the model, how could you verify that it is correct?    What box office sales would we predict using this model if the budget is ?    "
 },
 {
   "id": "sec-using-Copilot-to-learn-how",
