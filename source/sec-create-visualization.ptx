@@ -114,9 +114,9 @@
     <url href="external/sheets/Colorado_Licensed_Child_Care_Facilities_Report.csv" />
     </p>
 
-    <p>
+   <!-- <p>
         We're going to use this file to create a geographic heat map in Tableau.
-    </p>
+    </p>-->
 
     
     
