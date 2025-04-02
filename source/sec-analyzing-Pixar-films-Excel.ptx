@@ -3,7 +3,14 @@
 <section xml:id="sec-analyzing-Pixar-films-Excel" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Analyzing Pixar film data in Excel</title>
 
-<introduction>
+
+<note>
+    <p>
+       I'm going to demonstrate how to use the version of Copilot that is built into Excel. If you don’t have a paid Copilot subscription, I recommend simply watching the demonstration. However, you’re welcome to download the file below if you'd like to follow along. Just keep in mind that without the paid version, you won’t be able to perform all the same actions I demonstrate.
+
+       </p>
+</note>
+
     <p>
         Use this link to open an Excel file in Office 365:
         <url href="https://uccsoffice365-my.sharepoint.com/:x:/g/personal/lnelsen_uccs_edu/EbDtB_LMJ1tFnhQjizKCGdAByCd4DRP4knt7jSA1X65kGw?e=ClvpqM">Pixar Film Data</url>
@@ -20,7 +27,6 @@
         <image source="copilotinexcel.png" width="60%">
 </image>
     </p>
-</introduction>
 
 
 <p>
