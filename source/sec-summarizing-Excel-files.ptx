@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-summarizing-Excel-files" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Summarizing Excel Files</title>
+
+<introduction>
+Copilot is also helpful for gaining key insights about a dataset and generating questions that would be good to explore based on the data.
+</introduction>
+
+<investigation>
+<p>
+
+For each of the datasets below, list key insights about this dataset and generate questions based on this data. 
+
+</p>
+
+<p>
+
+<ul>
+
+<li>
+<p>
+Box Office Data:
+    </p>
+<p>
+        <url href="external/sheets/DomesticBoxOffice.xlsx" />
+
+    </p>
+
+    </li>
+
+
+    <li>
+<p>
+2024 Olympic Medalists:
+    </p>
+<p>
+        <url href="external/sheets/2024_Olympics_medalists_all.xlsx" />
+
+    </p>
+
+    </li>
+
+
+    <li>
+<p>
+Dentists by State:
+    </p>
+<p>
+        <url href="external/sheets/DQS_Dentists_by_state_Unites_States.xlsx" />
+
+    </p>
+
+    </li>
+
+    </ul>
+
+    </p>
+
+
+
+<p>
+
+    Here are some other things you can do for each Excel file:
+
+    <ul>
+        <li>
+            <p>
+                Generate a report based on the dataset.
+            </p>
+        </li>
+        <li>
+            <p>
+                Generate a PowerPoint presentation based on this dataset.
+            </p>
+        </li>
+    </ul>
+
+    </p>
+
+    <p>
+        (For anything you ask Copilot to generate, check to see if what it generated is helpful.)
+    </p>
+ 
+
+
+</investigation>
+
+
+
+</section>
+
+
