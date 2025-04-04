@@ -73,6 +73,24 @@ var ptx_lunr_docs = [
   "body": "Dentist Geographic Heat Map We want to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.    Ask Copilot to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.  Did it create a heat map?    Copilot probably did not create a heat map. Let's ask it how we would do it ourselves using the prompt below.   How do I create a geographic heat map for the number of dentists per 100,000 resident population in each state in 2021?   Follow the instructions it gives to create the heat map.    "
 },
 {
+  "id": "sec-summarizing-Excel-files",
+  "level": "1",
+  "url": "sec-summarizing-Excel-files.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Summarizing Excel Files",
+  "body": " Summarizing Excel Files  Copilot is also helpful for gaining key insights about a dataset and generating questions that would be good to explore based on the data.   For each of the datasets below, list key insights about this dataset and generate questions based on this data.     Box Office Data:       2024 Olympic Medalists:       Dentists by State:        Here are some other things you can do for each Excel file:   Generate a report based on the dataset.    Generate a PowerPoint presentation based on this dataset.     (For anything you ask Copilot to generate, check to see if what it generated is helpful.)   "
+},
+{
+  "id": "sec-summarizing-Excel-files-3",
+  "level": "2",
+  "url": "sec-summarizing-Excel-files.html#sec-summarizing-Excel-files-3",
+  "type": "Investigation",
+  "number": "1.3.1",
+  "title": "",
+  "body": " For each of the datasets below, list key insights about this dataset and generate questions based on this data.     Box Office Data:       2024 Olympic Medalists:       Dentists by State:        Here are some other things you can do for each Excel file:   Generate a report based on the dataset.    Generate a PowerPoint presentation based on this dataset.     (For anything you ask Copilot to generate, check to see if what it generated is helpful.)  "
+},
+{
   "id": "sec-describe-visualization",
   "level": "1",
   "url": "sec-describe-visualization.html",
