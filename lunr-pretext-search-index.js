@@ -181,11 +181,83 @@ var ptx_lunr_docs = [
   "body": "Practice with other datasets Choose a larger dataset that you would like to analyze. Try to use either ChatGPT or Copilot to create a visualization of the data. Here are links to sites with datasets that you could use:    Data is Plural      The English Women's Football (EWF) Database     "
 },
 {
+  "id": "sec-create-dashboards",
+  "level": "1",
+  "url": "sec-create-dashboards.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "Using Generative AI to Create Dashboards",
+  "body": " Using Generative AI to Create Dashboards   Generative AI can be helpful in a number of ways when creating dashboards in Tableau. Below are some ways you can use generative AI to create a dashboard.   Ideas and Planning    Clarify goals: brainstorm and refine what your dashboard should show based on your audience and use case    Visualization suggestions: Use it to recommend appropriate chart types (bar charts, line graphs, etc.) based on the data and the story you want to tell.      Data Preparation Help    Cleaning and shaping data: It can guide you on how to structure your data in Excel, SQL, or Tableau Prep for smoother integration into Tableau.    Calculated fields: Stuck on a Tableau formula? It can help write or debug calculated fields using Tableau’s syntax      Design Guidance    Layout tips: It can advise on layout structure, font size, color use, and interactivity to make the dashboard user-friendly.      Technical Assistance    Walkthroughs: Step-by-step instructions for connecting data, creating views, filters, parameters, or using Tableau-specific features like Actions and Dashboard Objects.    Troubleshooting: Describe your issue (e.g., filters not working across sheets), and it can help diagnose and resolve it.      Automation and Advanced Features    Scripting: It can help you write Python or R scripts using Tableau’s integration with TabPy or Rserve.    Tableau extensions and APIs: Want to extend Tableau’s functionality with JavaScript or connect to external systems? It can help walk you through it.      Documentation and Presentation    Generate explanations: It can create clear, user-friendly explanations for your dashboard or write descriptions for each visualization.    Presentation prep: It can help you draft what to say when you present your dashboard or write up an executive summary.          If you do not have Tableau installed on your computer, you can use the online version of Tableau Public for free to create dashboards for the datasets below if you make an account: Tableau Public Sign-in\/Account Creation    2024 Paris Olympics The file below contains data for medalists in the 2024 Paris Olympics. This data is from   Think about what visualizations would make sense to create with this data and create visualizations for a few different aspects of the data.   Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.    Use generative AI to recommend appropriate chart types based on the data.    Create a dashboard in Tableau and use generative AI as needed for technical assistance.    US Home Sales The file NewHouseSalesUS.xls contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.   (This file can also be found at .)   Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.    Use generative AI to recommend appropriate chart types based on the data.    Create a dashboard in Tableau and use generative AI as needed for technical assistance.    Colorado Childcare Data The file below has data on licensed childcare facilities in Colorado:   Maddison Project Database  The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.  Use the link below to download the Maddison Project Database as an Excel file for the period up to 2022:     Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.    Use generative AI to recommend appropriate chart types based on the data.    Create a dashboard in Tableau and use generative AI as needed for technical assistance.    Domestic Box Office Download the file below showing box office totals for new movie releases starting in 2022 through mid-September 2024.     Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.    Use generative AI to recommend appropriate chart types based on the data.    Create a dashboard in Tableau and use generative AI as needed for technical assistance.    Practice with other datasets Choose a larger dataset that you would like to analyze. Create a dashboard in Tableau after using generative AI to get ideas for your dashbaord and for technical assistance along the way. Here are links to sites with datasets that you could use:    Data is Plural      The English Women's Football (EWF) Database      "
+},
+{
+  "id": "sec-create-dashboards-3",
+  "level": "2",
+  "url": "sec-create-dashboards.html#sec-create-dashboards-3",
+  "type": "Note",
+  "number": "2.3.1",
+  "title": "",
+  "body": " If you do not have Tableau installed on your computer, you can use the online version of Tableau Public for free to create dashboards for the datasets below if you make an account: Tableau Public Sign-in\/Account Creation   "
+},
+{
+  "id": "sec-create-dashboards-4",
+  "level": "2",
+  "url": "sec-create-dashboards.html#sec-create-dashboards-4",
+  "type": "Example",
+  "number": "2.3.2",
+  "title": "2024 Paris Olympics.",
+  "body": "2024 Paris Olympics The file below contains data for medalists in the 2024 Paris Olympics. This data is from   Think about what visualizations would make sense to create with this data and create visualizations for a few different aspects of the data.   Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.    Use generative AI to recommend appropriate chart types based on the data.    Create a dashboard in Tableau and use generative AI as needed for technical assistance.   "
+},
+{
+  "id": "sec-create-dashboards-5",
+  "level": "2",
+  "url": "sec-create-dashboards.html#sec-create-dashboards-5",
+  "type": "Example",
+  "number": "2.3.3",
+  "title": "US Home Sales.",
+  "body": "US Home Sales The file NewHouseSalesUS.xls contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.   (This file can also be found at .)   Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.    Use generative AI to recommend appropriate chart types based on the data.    Create a dashboard in Tableau and use generative AI as needed for technical assistance.   "
+},
+{
+  "id": "sec-create-dashboards-6",
+  "level": "2",
+  "url": "sec-create-dashboards.html#sec-create-dashboards-6",
+  "type": "Example",
+  "number": "2.3.4",
+  "title": "Colorado Childcare Data.",
+  "body": "Colorado Childcare Data The file below has data on licensed childcare facilities in Colorado:  "
+},
+{
+  "id": "sec-create-dashboards-7",
+  "level": "2",
+  "url": "sec-create-dashboards.html#sec-create-dashboards-7",
+  "type": "Example",
+  "number": "2.3.5",
+  "title": "Maddison Project Database.",
+  "body": "Maddison Project Database  The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.  Use the link below to download the Maddison Project Database as an Excel file for the period up to 2022:     Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.    Use generative AI to recommend appropriate chart types based on the data.    Create a dashboard in Tableau and use generative AI as needed for technical assistance.   "
+},
+{
+  "id": "sec-create-dashboards-8",
+  "level": "2",
+  "url": "sec-create-dashboards.html#sec-create-dashboards-8",
+  "type": "Example",
+  "number": "2.3.6",
+  "title": "Domestic Box Office.",
+  "body": "Domestic Box Office Download the file below showing box office totals for new movie releases starting in 2022 through mid-September 2024.     Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.    Use generative AI to recommend appropriate chart types based on the data.    Create a dashboard in Tableau and use generative AI as needed for technical assistance.   "
+},
+{
+  "id": "sec-create-dashboards-9",
+  "level": "2",
+  "url": "sec-create-dashboards.html#sec-create-dashboards-9",
+  "type": "Example",
+  "number": "2.3.7",
+  "title": "Practice with other datasets.",
+  "body": "Practice with other datasets Choose a larger dataset that you would like to analyze. Create a dashboard in Tableau after using generative AI to get ideas for your dashbaord and for technical assistance along the way. Here are links to sites with datasets that you could use:    Data is Plural      The English Women's Football (EWF) Database     "
+},
+{
   "id": "sec-Calculated-Fields-Tableau",
   "level": "1",
   "url": "sec-Calculated-Fields-Tableau.html",
   "type": "Section",
-  "number": "2.3",
+  "number": "2.4",
   "title": "Using Generative AI to Create Calculated Fields in Tableau",
   "body": " Using Generative AI to Create Calculated Fields in Tableau   If you use Tableau, then you might have practice creating calculating fields in Tableau. The syntax in Tableau is different than in Excel, and you might want to create calculated fields in Tableau but not know the syntax for what you want to do.   2023 National Survey of Children’s Health  Use the link below to open and edit a Tableau workbook in Tableau Public that includes data from the 2023 National Survey of Children’s Health. Here is a link to information about the dataset: Link to information about variables   (If you have not used Tableau Public before, you will need to create a Tableau Public account.)   Link to Blank Census Kids Data Workbook on Tableau Public    We want to understand the proportion of children who need or currently take medication. The relevant field in the survey is labeled C_K2Q10 . We want to find the number of responses with a 1 and divide by the total number of responses. You might have done things like this in Excel, but Tableau is a little different. Use ChatGPT or Copilot and ask If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a 1 in a calculated field in Tableau?  Check to see if you get the answer below, and then create this calculated field in Tableau.  SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q10])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or currently take medication.  Now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy. (This is in C_K2Q19 .)  SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q19])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.   "
 },
@@ -194,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-Calculated-Fields-Tableau.html#sec-Calculated-Fields-Tableau-3",
   "type": "Example",
-  "number": "2.3.1",
+  "number": "2.4.1",
   "title": "2023 National Survey of Children’s Health.",
   "body": "2023 National Survey of Children’s Health  Use the link below to open and edit a Tableau workbook in Tableau Public that includes data from the 2023 National Survey of Children’s Health. Here is a link to information about the dataset: Link to information about variables   (If you have not used Tableau Public before, you will need to create a Tableau Public account.)   Link to Blank Census Kids Data Workbook on Tableau Public    We want to understand the proportion of children who need or currently take medication. The relevant field in the survey is labeled C_K2Q10 . We want to find the number of responses with a 1 and divide by the total number of responses. You might have done things like this in Excel, but Tableau is a little different. Use ChatGPT or Copilot and ask If I have a variable labeled C_K2Q10, how would I calculate the proportion of responses that were a 1 in a calculated field in Tableau?  Check to see if you get the answer below, and then create this calculated field in Tableau.  SUM(IF [C K2Q10]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q10])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or currently take medication.  Now create a calculated field for the proportion of children who need or get special therapy such as physical, occupational, or speech therapy. (This is in C_K2Q19 .)  SUM(IF [C K2Q19]=1 THEN 1 ELSE 0 END)\/COUNT([C K2Q19])   Use the calculated field you created above to create a geographic heat map showing the proportion of children who need or get special therapy such as physical, occupational, or speech therapy.  "
 },
@@ -203,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-viz-extension.html",
   "type": "Section",
-  "number": "2.4",
+  "number": "2.5",
   "title": "Using Generative AI When You Aren’t Sure How to Create a Visualization in Tableau",
   "body": " Using Generative AI When You Aren't Sure How to Create a Visualization in Tableau   Sometimes you might want to create a certain visualization in Tableau, but if it doesn't show up as one of the recommended options, you might not be sure what to do. We can use Generative AI to quickly learn the steps to create visualizations!   Sankey Chart Using Viz Extension We want to use Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.     Here is a link where you can access a Tableau workbook connected to this Excel file and edit it in Tableau Public:  Link to Tableau Public workbook  Ask Copilot how to create a Sankey chart for this data in Excel. Try to use the instructions to create this chart in Tableau. Questions to consider:   Are the steps given by Copilot correct\/helpful?    Is this the best way to visualize this data?    Is there anything confusing about this visualization?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)     "
 },
@@ -212,7 +284,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-viz-extension.html#sec-viz-extension-3",
   "type": "Example",
-  "number": "2.4.1",
+  "number": "2.5.1",
   "title": "Sankey Chart Using Viz Extension.",
   "body": "Sankey Chart Using Viz Extension We want to use Tableau to create a Sankey chart for the 2023 NBA playoff data below to get an image like the one shown.     Here is a link where you can access a Tableau workbook connected to this Excel file and edit it in Tableau Public:  Link to Tableau Public workbook  Ask Copilot how to create a Sankey chart for this data in Excel. Try to use the instructions to create this chart in Tableau. Questions to consider:   Are the steps given by Copilot correct\/helpful?    Is this the best way to visualize this data?    Is there anything confusing about this visualization?    What is wrong with the way colors are being used in this chart? (How could the chart be improved?)    "
 },

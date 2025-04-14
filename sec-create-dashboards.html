@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Using Generative AI to Create Dashboards</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="COB AI Summit Examples">
+<meta property="book:author" content="Lauren M. Nelsen">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-using-Copilot-to-learn-how-3-3-1 { counter-set: sec-using-Copilot-to-learn-how-3-3-1 0; }
+#sec-using-Copilot-to-learn-how-3-3-1 > li::marker { content: ""counter(sec-using-Copilot-to-learn-how-3-3-1,decimal)"."; }
+#sec-using-Copilot-to-learn-how-3-3-1 > li { counter-increment: sec-using-Copilot-to-learn-how-3-3-1; }
+#sec-viz-extension-3-8-1 { counter-set: sec-viz-extension-3-8-1 0; }
+#sec-viz-extension-3-8-1 > li::marker { content: ""counter(sec-viz-extension-3-8-1,decimal)"."; }
+#sec-viz-extension-3-8-1 > li { counter-increment: sec-viz-extension-3-8-1; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="uccs-conference-pretext-demo.html"><span class="title">COB AI Summit Examples:</span> <span class="subtitle">May 2, 2025</span></a></h1>
+<p class="byline">Lauren M. Nelsen</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-create-visualization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-Generative-AI-and-Data-Visualization.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-Calculated-Fields-Tableau.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Using-Copilot-in-Excel.html" class="internal"><span class="codenumber">1</span> <span class="title">Using Copilot in Excel</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-analyzing-Pixar-films-Excel.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Demo:  Analyzing Pixar film data in Excel</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-using-Copilot-to-learn-how.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Using Copilot to Learn How to do Things in Excel</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-summarizing-Excel-files.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Summarizing Excel Files</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-Generative-AI-and-Data-Visualization.html" class="internal"><span class="codenumber">2</span> <span class="title">Generative AI and Data Visualization</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-describe-visualization.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Using Generative AI to Describe a Data Visualization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-create-visualization.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Using Generative AI to Create Data Visualizations</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-create-dashboards.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Using Generative AI to Create Dashboards</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Calculated-Fields-Tableau.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Using Generative AI to Create Calculated Fields in Tableau</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-viz-extension.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Using Generative AI When You Aren’t Sure How to Create a Visualization in Tableau</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-create-dashboards"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.3</span><span class="space"> </span><span class="title">Using Generative AI to Create Dashboards</span>
+</h2>
+<section class="introduction" id="sec-create-dashboards-2"><div class="para logical" id="sec-create-dashboards-2-1">
+<div class="para">Generative AI can be helpful in a number of ways when creating dashboards in Tableau.  Below are some ways you can use generative AI to create a dashboard.</div>
+<ul class="disc" id="sec-create-dashboards-2-1-1">
+<li id="sec-create-dashboards-2-1-1-1">
+<div class="para" id="sec-create-dashboards-2-1-1-1-1">Ideas and Planning</div>
+<ul class="circle" id="sec-create-dashboards-2-1-1-1-2">
+<li id="sec-create-dashboards-2-1-1-1-2-1"><div class="para" id="sec-create-dashboards-2-1-1-1-2-1-1">Clarify goals: brainstorm and refine what your dashboard should show based on your audience and use case</div></li>
+<li id="sec-create-dashboards-2-1-1-1-2-2"><div class="para" id="sec-create-dashboards-2-1-1-1-2-2-1">Visualization suggestions:  Use it to recommend appropriate chart types (bar charts, line graphs, etc.) based on the data and the story you want to tell.</div></li>
+</ul>
+</li>
+<li id="sec-create-dashboards-2-1-1-2">
+<div class="para" id="sec-create-dashboards-2-1-1-2-1">Data Preparation Help</div>
+<ul class="circle" id="sec-create-dashboards-2-1-1-2-2">
+<li id="sec-create-dashboards-2-1-1-2-2-1"><div class="para" id="sec-create-dashboards-2-1-1-2-2-1-1">Cleaning and shaping data: It can guide you on how to structure your data in Excel, SQL, or Tableau Prep for smoother integration into Tableau.</div></li>
+<li id="sec-create-dashboards-2-1-1-2-2-2"><div class="para" id="sec-create-dashboards-2-1-1-2-2-2-1">Calculated fields: Stuck on a Tableau formula? It can help write or debug calculated fields using Tableau’s syntax</div></li>
+</ul>
+</li>
+<li id="sec-create-dashboards-2-1-1-3">
+<div class="para" id="sec-create-dashboards-2-1-1-3-1">Design Guidance</div>
+<ul class="circle" id="sec-create-dashboards-2-1-1-3-2"><li id="sec-create-dashboards-2-1-1-3-2-1"><div class="para" id="sec-create-dashboards-2-1-1-3-2-1-1">Layout tips: It can advise on layout structure, font size, color use, and interactivity to make the dashboard user-friendly.</div></li></ul>
+</li>
+<li id="sec-create-dashboards-2-1-1-4">
+<div class="para" id="sec-create-dashboards-2-1-1-4-1">Technical Assistance</div>
+<ul class="circle" id="sec-create-dashboards-2-1-1-4-2">
+<li id="sec-create-dashboards-2-1-1-4-2-1"><div class="para" id="sec-create-dashboards-2-1-1-4-2-1-1">Walkthroughs: Step-by-step instructions for connecting data, creating views, filters, parameters, or using Tableau-specific features like Actions and Dashboard Objects.</div></li>
+<li id="sec-create-dashboards-2-1-1-4-2-2"><div class="para" id="sec-create-dashboards-2-1-1-4-2-2-1">Troubleshooting: Describe your issue (e.g., filters not working across sheets), and it can help diagnose and resolve it.</div></li>
+</ul>
+</li>
+<li id="sec-create-dashboards-2-1-1-5">
+<div class="para" id="sec-create-dashboards-2-1-1-5-1">Automation and Advanced Features</div>
+<ul class="circle" id="sec-create-dashboards-2-1-1-5-2">
+<li id="sec-create-dashboards-2-1-1-5-2-1"><div class="para" id="sec-create-dashboards-2-1-1-5-2-1-1">Scripting: It can help you write Python or R scripts using Tableau’s integration with TabPy or Rserve.</div></li>
+<li id="sec-create-dashboards-2-1-1-5-2-2"><div class="para" id="sec-create-dashboards-2-1-1-5-2-2-1">Tableau extensions and APIs: Want to extend Tableau’s functionality with JavaScript or connect to external systems? It can help walk you through it.</div></li>
+</ul>
+</li>
+<li id="sec-create-dashboards-2-1-1-6">
+<div class="para" id="sec-create-dashboards-2-1-1-6-1">Documentation and Presentation</div>
+<ul class="circle" id="sec-create-dashboards-2-1-1-6-2">
+<li id="sec-create-dashboards-2-1-1-6-2-1"><div class="para" id="sec-create-dashboards-2-1-1-6-2-1-1">Generate explanations: It can create clear, user-friendly explanations for your dashboard or write descriptions for each visualization.</div></li>
+<li id="sec-create-dashboards-2-1-1-6-2-2"><div class="para" id="sec-create-dashboards-2-1-1-6-2-2-1">Presentation prep: It can help you draft what to say when you present your dashboard or write up an executive summary.</div></li>
+</ul>
+</li>
+</ul>
+</div></section><article class="note remark-like" id="sec-create-dashboards-3"><h3 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec-create-dashboards-3-1">If you do not have Tableau installed on your computer, you can use the online version of Tableau Public for free to create dashboards for the datasets below if you make an account: <a class="external" href="https://bit.ly/42pTrMl" target="_blank">Tableau Public Sign-in/Account Creation</a><details class="ptx-footnote" aria-live="polite" id="sec-create-dashboards-3-1-2"><summary class="ptx-footnote__number" title="Footnote 2.3.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-create-dashboards-3-1-2"><code class="code-inline tex2jax_ignore">bit.ly/42pTrMl</code></div></details>
+</div></article><details id="sec-create-dashboards-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">2024 Paris Olympics.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-create-dashboards-4-2">The file below contains data for medalists in the 2024 Paris Olympics.<details class="ptx-footnote" aria-live="polite" id="sec-create-dashboards-4-2-1"><summary class="ptx-footnote__number" title="Footnote 2.3.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="sec-create-dashboards-4-2-1">This data is from <a class="external" href="https://edjnet.github.io/OlympicsGoNUTS/2024/" target="_blank"><code class="code-inline tex2jax_ignore">https://edjnet.github.io/OlympicsGoNUTS/2024/</code></a>
+</div></details>
+</div>
+<div class="para" id="sec-create-dashboards-4-3"><a class="external" href="external/sheets/2024_Olympics_medalists_all.xlsx" target="_blank"><code class="code-inline tex2jax_ignore">external/sheets/2024_Olympics_medalists_all.xlsx</code></a></div>
+<div class="para" id="sec-create-dashboards-4-4">Think about what visualizations would make sense to create with this data and create visualizations for a few different aspects of the data.</div>
+<article class="task exercise-like" id="sec-create-dashboards-4-5-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-create-dashboards-4-5-1-1-1">Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.</div></article> <article class="task exercise-like" id="sec-create-dashboards-4-5-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-create-dashboards-4-5-2-1-1">Use generative AI to recommend appropriate chart types based on the data.</div></article> <article class="task exercise-like" id="sec-create-dashboards-4-5-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-create-dashboards-4-5-3-1-1">Create a dashboard in Tableau and use generative AI as needed for technical assistance.</div></article></article></details><details id="sec-create-dashboards-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">US Home Sales.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-create-dashboards-5-2">The file “NewHouseSalesUS.xls” contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.</div>
+<div class="para" id="sec-create-dashboards-5-3"><a class="external" href="external/sheets/NewHouseSalesUS.xls" target="_blank"><code class="code-inline tex2jax_ignore">external/sheets/NewHouseSalesUS.xls</code></a></div>
+<div class="para" id="sec-create-dashboards-5-4">(This file can also be found at <a class="external" href="https://www.census.gov/construction/nrs/data/series.html" target="_blank"><code class="code-inline tex2jax_ignore">https://www.census.gov/construction/nrs/data/series.html</code></a>.)</div>
+<article class="task exercise-like" id="sec-create-dashboards-5-5-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-create-dashboards-5-5-1-1-1">Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.</div></article> <article class="task exercise-like" id="sec-create-dashboards-5-5-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-create-dashboards-5-5-2-1-1">Use generative AI to recommend appropriate chart types based on the data.</div></article> <article class="task exercise-like" id="sec-create-dashboards-5-5-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-create-dashboards-5-5-3-1-1">Create a dashboard in Tableau and use generative AI as needed for technical assistance.</div></article></article></details><details id="sec-create-dashboards-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.4</span><span class="period">.</span><span class="space"> </span><span class="title">Colorado Childcare Data.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-create-dashboards-6-2">The file below has data on licensed childcare facilities in Colorado: <a class="external" href="external/sheets/Colorado_Licensed_Child_Care_Facilities_Report.csv" target="_blank"><code class="code-inline tex2jax_ignore">external/sheets/Colorado_Licensed_Child_Care_Facilities_Report.csv</code></a>
+</div></article></details><details id="sec-create-dashboards-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.5</span><span class="period">.</span><span class="space"> </span><span class="title">Maddison Project Database.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-create-dashboards-7-2">“The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.”<details class="ptx-footnote" aria-live="polite" id="sec-create-dashboards-7-2-2"><summary class="ptx-footnote__number" title="Footnote 2.3.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="sec-create-dashboards-7-2-2"><a class="external" href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023" target="_blank"><code class="code-inline tex2jax_ignore">https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023</code></a></div></details>
+</div>
+<div class="para" id="sec-create-dashboards-7-3">Use the link below to download the Maddison Project Database as an Excel file for the period up to 2022:</div>
+<div class="para" id="sec-create-dashboards-7-4"><a class="external" href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023" target="_blank"><code class="code-inline tex2jax_ignore">https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023</code></a></div>
+<article class="task exercise-like" id="sec-create-dashboards-7-5-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-create-dashboards-7-5-1-1-1">Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.</div></article> <article class="task exercise-like" id="sec-create-dashboards-7-5-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-create-dashboards-7-5-2-1-1">Use generative AI to recommend appropriate chart types based on the data.</div></article> <article class="task exercise-like" id="sec-create-dashboards-7-5-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-create-dashboards-7-5-3-1-1">Create a dashboard in Tableau and use generative AI as needed for technical assistance.</div></article></article></details><details id="sec-create-dashboards-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.6</span><span class="period">.</span><span class="space"> </span><span class="title">Domestic Box Office.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-create-dashboards-8-2">Download the file below showing box office totals for new movie releases starting in 2022 through mid-September 2024.</div>
+<div class="para" id="sec-create-dashboards-8-3"><a class="external" href="external/sheets/DomesticBoxOffice.xlsx" target="_blank"><code class="code-inline tex2jax_ignore">external/sheets/DomesticBoxOffice.xlsx</code></a></div>
+<article class="task exercise-like" id="sec-create-dashboards-8-4-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="sec-create-dashboards-8-4-1-1-1">Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.</div></article> <article class="task exercise-like" id="sec-create-dashboards-8-4-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="sec-create-dashboards-8-4-2-1-1">Use generative AI to recommend appropriate chart types based on the data.</div></article> <article class="task exercise-like" id="sec-create-dashboards-8-4-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="sec-create-dashboards-8-4-3-1-1">Create a dashboard in Tableau and use generative AI as needed for technical assistance.</div></article></article></details><details id="sec-create-dashboards-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.7</span><span class="period">.</span><span class="space"> </span><span class="title">Practice with other datasets.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-create-dashboards-9-2">Choose a larger dataset that you would like to analyze.  Create a dashboard in Tableau after using generative AI to get ideas for your dashbaord and for technical assistance along the way.</div>
+<div class="para logical" id="sec-create-dashboards-9-3">
+<div class="para">Here are links to sites with datasets that you could use:</div>
+<ul class="disc" id="sec-create-dashboards-9-3-1">
+<li id="sec-create-dashboards-9-3-1-1"><div class="para" id="sec-create-dashboards-9-3-1-1-1">
+<a class="external" href="https://www.data-is-plural.com/archive/2023-01-11-edition/" target="_blank">Data is Plural</a><details class="ptx-footnote" aria-live="polite" id="sec-create-dashboards-9-3-1-1-1-2"><summary class="ptx-footnote__number" title="Footnote 2.3.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="sec-create-dashboards-9-3-1-1-1-2"><code class="code-inline tex2jax_ignore">www.data-is-plural.com/archive/2023-01-11-edition/</code></div></details>
+</div></li>
+<li id="sec-create-dashboards-9-3-1-2"><div class="para" id="sec-create-dashboards-9-3-1-2-1">
+<a class="external" href="https://github.com/probjects/ewf-database" target="_blank">The English Women’s Football (EWF) Database</a><details class="ptx-footnote" aria-live="polite" id="sec-create-dashboards-9-3-1-2-1-2"><summary class="ptx-footnote__number" title="Footnote 2.3.5"><sup> 5 </sup></summary><div class="ptx-footnote__contents" id="sec-create-dashboards-9-3-1-2-1-2"><code class="code-inline tex2jax_ignore">github.com/probjects/ewf-database</code></div></details>
+</div></li>
+</ul>
+</div></article></details></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-create-visualization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-Calculated-Fields-Tableau.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
