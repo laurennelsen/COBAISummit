@@ -73,9 +73,11 @@
                 The values in this dataset have not been adjusted for inflation.  Ask Copilot to create a column labeled <q>budget adjusted for inflation</q>, and adjust the values from column B for inflation, using the release dates in column F.
             </p>
 
+            
             <p>
                 Create a column labeled <q>box office worldwide adjusted for inflation</q>, and adjust the values from column E for inflation, using the release dates in column F.  (Does Copilot adjust the values for inflation the same way it did to create column Q?  If not, adjust the formula from column Q to create this new column.)
-            </p>
+            </p> 
+            
         </li>
     </ul>
 </p>
@@ -98,11 +100,11 @@
     <tasks>
         <task>
             <p>
-                Create a scatter plot for budget adjusted for inflation vs. worldwide sales adjusted for inflation.  (If you insert the chart into the Excel sheet, is the chart correct?)
+                Create a scatter plot for budget vs. worldwide sales.  (If you insert the chart into the Excel sheet, is the chart correct?)
             </p>
             <hint>
                 <p>
-                    Try the prompt: <q>Create a scatter plot using columns Q and R.
+                    Try the prompt: <q>Create a scatter plot using columns B and E.
 
 </q>
                 </p>
@@ -154,7 +156,7 @@
             <ul>
                 <li>
                     <p>
-                        Is there an error?  Why?
+                        Is there an error?  If so, why?
                     </p>
                 </li>
                 <li>

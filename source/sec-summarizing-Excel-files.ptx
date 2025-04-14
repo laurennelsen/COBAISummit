@@ -32,7 +32,7 @@ Box Office Data:
 
     <li>
 <p>
-2024 Olympic Medalists:
+2024 Olympic Medalists:<fn>This data is from <url href="https://edjnet.github.io/OlympicsGoNUTS/2024/" /></fn>
     </p>
 <p>
         <url href="external/sheets/2024_Olympics_medalists_all.xlsx" />
@@ -44,7 +44,8 @@ Box Office Data:
 
     <li>
 <p>
-Dentists by State:
+Dentists by State:<fn>This data is from <url href="https://data.cdc.gov/NCHS/DQS-Dentists-by-state-United-States-/9epi-jrff/about_data" />.</fn>
+
     </p>
 <p>
         <url href="external/sheets/DQS_Dentists_by_state_Unites_States.xlsx" />
