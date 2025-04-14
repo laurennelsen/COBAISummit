@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-create-dashboards" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Using Generative AI to Create Dashboards</title>
+
+<introduction>
+    <p>
+        Generative AI can be helpful in a number of ways when creating dashboards in Tableau.  Below are some ways you can use generative AI to create a dashboard.
+        <ul>
+            <li>
+                <p>
+                    Ideas and Planning
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Clarify goals: brainstorm and refine what your dashboard should show based on your audience and use case
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Visualization suggestions:  Use it to recommend appropriate chart types (bar charts, line graphs, etc.) based on the data and the story you want to tell. 
+
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Data Preparation Help
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Cleaning and shaping data: It can guide you on how to structure your data in Excel, SQL, or Tableau Prep for smoother integration into Tableau.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculated fields: Stuck on a Tableau formula? It can help write or debug calculated fields using Tableau’s syntax
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Design Guidance
+                </p>
+                <ul>
+                            <li>
+                    <p>
+                        Layout tips: It can advise on layout structure, font size, color use, and interactivity to make the dashboard user-friendly.
+                    </p>
+                </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Technical Assistance
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Walkthroughs: Step-by-step instructions for connecting data, creating views, filters, parameters, or using Tableau-specific features like Actions and Dashboard Objects.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Troubleshooting: Describe your issue (e.g., filters not working across sheets), and it can help diagnose and resolve it.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Automation and Advanced Features
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Scripting: It can help you write Python or R scripts using Tableau’s integration with TabPy or Rserve.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Tableau extensions and APIs: Want to extend Tableau’s functionality with JavaScript or connect to external systems? It can help walk you through it.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Documentation and Presentation
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Generate explanations: It can create clear, user-friendly explanations for your dashboard or write descriptions for each visualization.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Presentation prep: It can help you draft what to say when you present your dashboard or write up an executive summary.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+</introduction>
+
+
+
+<!-- <example>
+    <p>
+    The file below shows the number of Snapchat messages sent per day for a particular user.
+    </p>
+    <p>
+        <url href="external/sheets/Snapchat.xlsx" />
+
+    </p>
+    <p>
+        Think about what type of chart you would want to use to visualize the data and try to use either ChatGPT or Copilot to create a visualization of the data.
+    </p>
+</example>-->
+
+
+<note>
+    
+<p>
+    
+If you do not have Tableau installed on your computer, you can use the online version of Tableau Public for free to create dashboards for the datasets below if you make an account:
+<url href="https://bit.ly/42pTrMl">Tableau Public Sign-in/Account Creation</url>
+</p>
+
+
+</note>
+
+
+<exercise>
+    <title>2024 Paris Olympics</title>
+    
+    <p>
+        The file below contains data for medalists in the 2024 Paris Olympics.<fn>This data is from <url href="https://edjnet.github.io/OlympicsGoNUTS/2024/" /></fn></p>
+        <p>
+            <url href="external/sheets/2024_Olympics_medalists_all.xlsx" />
+        </p>
+
+        <p>
+            Think about what visualizations would make sense to create with this data and create visualizations for a few different aspects of the data.
+        </p>
+
+
+<tasks>
+
+<task>
+    <statement>
+        <p>
+         Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.
+
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Use generative AI to recommend appropriate chart types based on the data.
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Create a dashboard in Tableau and use generative AI as needed for technical assistance.
+        </p>
+    </statement>
+</task>
+
+</tasks>
+        
+    
+</exercise>
+
+
+<exercise>
+    <title>US Home Sales</title>
+
+    <p>
+        The file <q>NewHouseSalesUS.xls</q> contains data for new, privately-owned, residential housing units sold and for sale in the United States between 2002 to the present.  
+        </p>
+        <p>
+            <url href="external/sheets/NewHouseSalesUS.xls" />
+    
+        </p>
+        <p>
+        (This file can also be found at <url href="https://www.census.gov/construction/nrs/data/series.html" />.)
+        </p>
+
+<tasks>
+
+<task>
+    <statement>
+        <p>
+         Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.
+
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Use generative AI to recommend appropriate chart types based on the data.
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Create a dashboard in Tableau and use generative AI as needed for technical assistance.
+        </p>
+    </statement>
+</task>
+
+</tasks>
+    
+  </exercise>
+
+
+  <exercise>
+    <title>Colorado Childcare Data</title>
+
+    <p>
+    The file below has data on licensed childcare facilities in Colorado:
+    <url href="external/sheets/Colorado_Licensed_Child_Care_Facilities_Report.csv" />
+    </p>
+
+   <!-- <p>
+        We're going to use this file to create a geographic heat map in Tableau.
+    </p>-->
+
+    
+    
+  </exercise>
+
+
+
+  <exercise>
+    <title>Maddison Project Database</title>
+    
+    <p>
+    <q>The Maddison Project Database provides information on comparative economic growth and income levels over the very long run.</q><fn><url href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023" /></fn>
+    </p>
+
+    <p>
+        Use the link below to download the Maddison Project Database as an Excel file for the period up to 2022:
+    </p>
+    <p>
+        <url href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023" />
+    </p>
+
+    <tasks>
+
+<task>
+    <statement>
+        <p>
+         Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.
+
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Use generative AI to recommend appropriate chart types based on the data.
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Create a dashboard in Tableau and use generative AI as needed for technical assistance.
+        </p>
+    </statement>
+</task>
+
+</tasks>
+  </exercise>
+
+
+   <exercise>
+    <title>Domestic Box Office</title>
+    
+    <p>
+        Download the file below showing box office totals for new movie releases starting in 2022 through mid-September 2024.
+    </p>
+    <p>
+        <url href="external/sheets/DomesticBoxOffice.xlsx" />
+
+    </p>
+
+    <tasks>
+
+<task>
+    <statement>
+        <p>
+         Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.
+
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Use generative AI to recommend appropriate chart types based on the data.
+        </p>
+    </statement>
+</task>
+
+<task>
+    <statement>
+        <p>
+            Create a dashboard in Tableau and use generative AI as needed for technical assistance.
+        </p>
+    </statement>
+</task>
+
+</tasks>
+    
+  </exercise>
+
+
+
+<exercise>
+<title>Practice with other datasets</title>
+
+
+    <p>
+        Choose a larger dataset that you would like to analyze.  Create a dashboard in Tableau after using generative AI to get ideas for your dashbaord and for technical assistance along the way.
+    </p>
+    <p>
+        Here are links to sites with datasets that you could use:
+        <ul>
+            <li>
+                <p>
+                            <url href="https://www.data-is-plural.com/archive/2023-01-11-edition/" >Data is Plural</url>
+
+                </p>
+            </li>
+            <li>
+                <p>
+                            <url href="https://github.com/probjects/ewf-database" >The English Women's Football (EWF) Database</url>
+
+                </p>
+            </li>
+        </ul>
+    </p>
+</exercise>
+
+ 
+</section>
