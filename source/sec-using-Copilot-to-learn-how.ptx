@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-using-Copilot-to-learn-how" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Using Copilot to Learn How to do Things in Excel</title>
+  <title>Using Copilot to Learn How to do Things in Excel or Generating Ideas for What to do</title>
 
 <introduction>
 <p>
 At the moment, Copilot in Excel cannot do everything we might want it to do.  However, it can still be helpful for providing guidance if we are not sure how to do something in Excel.
+</p>
+<p>
+    It can also be useful for getting ideas about what to do with a dataset and for better understanding concepts related to what we're doing.
 </p>
     <p>
         Use this link to open an Excel file in Office 365:
@@ -59,6 +62,87 @@ We want to create a geographic heat map showing the number of dentists per 100,0
 
     
 
+</exercise>
+
+
+<exercise>
+    <p>
+        Now we want to focus on what is happening in Colorado.  We want to see how the number of dentists per 100,000 residents in Colorado changed from 2001 to 2021.
+    </p>
+    <p>
+        Ask Copilot to <q>Filter the table to only show rows that have a "1" in column M.</q>  Then apply the filter.  
+    </p>
+    <p>
+        Now we can go to Column I and choose to only show information for <q>Colorado</q>.
+    </p>
+</exercise>
+
+
+<exercise>
+    <tasks>  
+        <task>
+        <p>
+Let's say we want to find the average estimate for dentists per 100,000 resident population in the year 2021 (year).
+</p>
+    <p>
+        Use the following prompt to do this:
+    </p>
+    <p>
+        <q>How would I find the average value in column P for rows in which column M is equal to "1" and column N is equal to "2021"?</q>
+    </p>
+
+</task>
+
+<task>
+    <statement>
+        <p>
+            Now let's make a confidence interval for the average estimate for dentists per 100,000 resident population in the year 2021 (year).
+        </p>
+        <p>
+            (Note:  ....comment on why this might not make a lot of sense to do here....)
+        </p>
+        <p>
+            Use the prompt below:
+        </p>
+        <p>
+            <q>How would I make a confidence interval for the average value in column P for rows in which column M is equal to "1" and column N is equal to "2021"?
+
+            </q>
+        </p>
+        <p>
+            Here are some additional questions we could ask:
+            <ul>
+                <li>
+                    <p>
+                        What is a confidence interval?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Why did the formula use 1.96?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is a standard deviation?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What would change if we wanted to change the level of confidence to <m>99\%</m>?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Can you explain what the confidence interval means in the context of this problem?
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</task>
+
+</tasks>
 </exercise>
 
 

@@ -86,8 +86,17 @@
 </exercise>
 
 <p>
-    Now let's practice using Copilot in Excel to create data visualizations.
+    Let's now use Copilot in Excel to create data visualizations.
 </p>
+
+<exercise>
+    <p>
+        Enter the prompt below into Copilot and see if the output generated is helpful:
+    </p>
+    <p>
+       <q> List key insights about this dataset and generate questions based on this data.</q>
+    </p>
+</exercise>
 
 
 <exercise>

@@ -9,8 +9,8 @@
 
   <!-- include sections -->
   <xi:include href="sec-analyzing-Pixar-films-Excel.ptx" />
+  <xi:include href="sec-summarizing-Excel-files.ptx" />
     <xi:include href="sec-using-Copilot-to-learn-how.ptx" />
-        <xi:include href="sec-summarizing-Excel-files.ptx" />
 
 
 
