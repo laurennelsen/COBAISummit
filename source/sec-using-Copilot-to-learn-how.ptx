@@ -66,6 +66,11 @@ We want to create a geographic heat map showing the number of dentists per 100,0
 
 
 <exercise>
+    <title>
+        Dentists Help With Filtering
+    </title>
+    
+    
     <p>
         Now we want to focus on what is happening in Colorado.  We want to see how the number of dentists per 100,000 residents in Colorado changed from 2001 to 2021.
     </p>
@@ -79,6 +84,9 @@ We want to create a geographic heat map showing the number of dentists per 100,0
 
 
 <exercise>
+    <title>Dentists Help With Formulas and Concepts</title>
+    
+    
     <tasks>  
         <task>
         <p>
