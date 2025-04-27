@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Demo:  Analyzing Pixar film data in Excel",
-  "body": " Demo: Analyzing Pixar film data in Excel   I'm going to demonstrate how to use the version of Copilot that is built into Excel. If you don’t have a paid Copilot subscription, I recommend simply watching the demonstration. However, you’re welcome to download the file below if you'd like to follow along. Just keep in mind that without the paid version, you won’t be able to perform all the same actions I demonstrate.   Use this link to open an Excel file in Office 365: Pixar Film Data   Go to File and create a copy of this file online:    Click on the Copilot icon so that a Copilot window shows up on your screen:    This file includes the budgets, gross sales data, release dates, and other facts about Pixar films.  Now let's use Copilot to investigate our data!     What film did the best (or the worst) in the United States and Canada?    Sort the films from largest to smallest using worlwide box office sales (column E).    What is the average in Column C (US and Canada box office sales)?    The average value in Column C should be . Have Excel highlight rows for which the value in Column C is less than .    Highlight movies that were released after 2021.    The values in this dataset have not been adjusted for inflation. Ask Copilot to create a column labeled budget adjusted for inflation , and adjust the values from column B for inflation, using the release dates in column F.  Create a column labeled box office worldwide adjusted for inflation , and adjust the values from column E for inflation, using the release dates in column F. (Does Copilot adjust the values for inflation the same way it did to create column Q? If not, adjust the formula from column Q to create this new column.)     Now let's practice using Copilot in Excel to create data visualizations.   Try using Copilot to create the visualization or to answer the question.    Create a scatter plot for budget vs. worldwide sales. (If you insert the chart into the Excel sheet, is the chart correct?)  Try the prompt: Create a scatter plot using columns B and E.    Create a line chart showing the number of films released each year.  Make a table showing how many films were rated G and PG.  Make a bar chart for film ratings.  How did average worldwide box office sales for G movies compare to average worldwide box office sales for PG movies?  Create a box-and-whisker chart for the Rotten Tomatoes Score (in column J). Are there any outliers?     Create a confidence interval for the mean box office worldwide sales adjusted for inflation in column R.  Create a regression model to predict box office worldwide sales adjusted for inflation based on budget adjusted for inflation.   Is there an error? If so, why?    If you are able to use the response to create the model, how could you verify that it is correct?    What box office sales would we predict using this model if the budget is ?     "
+  "body": " Demo: Analyzing Pixar film data in Excel   I'm going to demonstrate how to use the version of Copilot that is built into Excel. If you don’t have a paid Copilot subscription, I recommend simply watching the demonstration. However, you’re welcome to download the file below if you'd like to follow along. Just keep in mind that without the paid version, you won’t be able to perform all the same actions I demonstrate.   Use this link to open an Excel file in Office 365: Pixar Film Data   Go to File and create a copy of this file online:    Click on the Copilot icon so that a Copilot window shows up on your screen:    This file includes the budgets, gross sales data, release dates, and other facts about Pixar films.  Now let's use Copilot to investigate our data!     What film did the best (or the worst) in the United States and Canada?    Sort the films from largest to smallest using worlwide box office sales (column E).    What is the average in Column C (US and Canada box office sales)?    The average value in Column C should be . Have Excel highlight rows for which the value in Column C is less than .    Highlight movies that were released after 2021.    The values in this dataset have not been adjusted for inflation. Ask Copilot to create a column labeled budget adjusted for inflation , and adjust the values from column B for inflation, using the release dates in column F.  Create a column labeled box office worldwide adjusted for inflation , and adjust the values from column E for inflation, using the release dates in column F. (Does Copilot adjust the values for inflation the same way it did to create column Q? If not, adjust the formula from column Q to create this new column.)     Let's now use Copilot in Excel to create data visualizations.  Enter the prompt below into Copilot and see if the output generated is helpful:  List key insights about this dataset and generate questions based on this data.    Try using Copilot to create the visualization or to answer the question.    Create a scatter plot for budget vs. worldwide sales. (If you insert the chart into the Excel sheet, is the chart correct?)  Try the prompt: Create a scatter plot using columns B and E.    Create a line chart showing the number of films released each year.  Make a table showing how many films were rated G and PG.  Make a bar chart for film ratings.  How did average worldwide box office sales for G movies compare to average worldwide box office sales for PG movies?  Create a box-and-whisker chart for the Rotten Tomatoes Score (in column J). Are there any outliers?     Create a confidence interval for the mean box office worldwide sales adjusted for inflation in column R.  Create a regression model to predict box office worldwide sales adjusted for inflation based on budget adjusted for inflation.   Is there an error? If so, why?    If you are able to use the response to create the model, how could you verify that it is correct?    What box office sales would we predict using this model if the budget is ?     "
 },
 {
   "id": "sec-analyzing-Pixar-films-Excel-2",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.1.3",
   "title": "",
-  "body": " Try using Copilot to create the visualization or to answer the question.    Create a scatter plot for budget vs. worldwide sales. (If you insert the chart into the Excel sheet, is the chart correct?)  Try the prompt: Create a scatter plot using columns B and E.    Create a line chart showing the number of films released each year.  Make a table showing how many films were rated G and PG.  Make a bar chart for film ratings.  How did average worldwide box office sales for G movies compare to average worldwide box office sales for PG movies?  Create a box-and-whisker chart for the Rotten Tomatoes Score (in column J). Are there any outliers?   "
+  "body": "Enter the prompt below into Copilot and see if the output generated is helpful:  List key insights about this dataset and generate questions based on this data.  "
 },
 {
   "id": "sec-analyzing-Pixar-films-Excel-11",
@@ -52,32 +52,23 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.1.4",
   "title": "",
-  "body": " Create a confidence interval for the mean box office worldwide sales adjusted for inflation in column R.  Create a regression model to predict box office worldwide sales adjusted for inflation based on budget adjusted for inflation.   Is there an error? If so, why?    If you are able to use the response to create the model, how could you verify that it is correct?    What box office sales would we predict using this model if the budget is ?    "
+  "body": " Try using Copilot to create the visualization or to answer the question.    Create a scatter plot for budget vs. worldwide sales. (If you insert the chart into the Excel sheet, is the chart correct?)  Try the prompt: Create a scatter plot using columns B and E.    Create a line chart showing the number of films released each year.  Make a table showing how many films were rated G and PG.  Make a bar chart for film ratings.  How did average worldwide box office sales for G movies compare to average worldwide box office sales for PG movies?  Create a box-and-whisker chart for the Rotten Tomatoes Score (in column J). Are there any outliers?   "
 },
 {
-  "id": "sec-using-Copilot-to-learn-how",
-  "level": "1",
-  "url": "sec-using-Copilot-to-learn-how.html",
-  "type": "Section",
-  "number": "1.2",
-  "title": "Using Copilot to Learn How to do Things in Excel",
-  "body": " Using Copilot to Learn How to do Things in Excel   At the moment, Copilot in Excel cannot do everything we might want it to do. However, it can still be helpful for providing guidance if we are not sure how to do something in Excel.  Use this link to open an Excel file in Office 365: Dentists by state  This data is from .   Go to File and create a copy of this file online.   Dentist Geographic Heat Map We want to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.    Ask Copilot to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.  Did it create a heat map?    Copilot probably did not create a heat map. Let's ask it how we would do it ourselves using the prompt below.   How do I create a geographic heat map for the number of dentists per 100,000 resident population in each state in 2021?   Follow the instructions it gives to create the heat map.     "
-},
-{
-  "id": "sec-using-Copilot-to-learn-how-3",
+  "id": "sec-analyzing-Pixar-films-Excel-12",
   "level": "2",
-  "url": "sec-using-Copilot-to-learn-how.html#sec-using-Copilot-to-learn-how-3",
+  "url": "sec-analyzing-Pixar-films-Excel.html#sec-analyzing-Pixar-films-Excel-12",
   "type": "Example",
-  "number": "1.2.1",
-  "title": "Dentist Geographic Heat Map.",
-  "body": "Dentist Geographic Heat Map We want to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.    Ask Copilot to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.  Did it create a heat map?    Copilot probably did not create a heat map. Let's ask it how we would do it ourselves using the prompt below.   How do I create a geographic heat map for the number of dentists per 100,000 resident population in each state in 2021?   Follow the instructions it gives to create the heat map.    "
+  "number": "1.1.5",
+  "title": "",
+  "body": " Create a confidence interval for the mean box office worldwide sales adjusted for inflation in column R.  Create a regression model to predict box office worldwide sales adjusted for inflation based on budget adjusted for inflation.   Is there an error? If so, why?    If you are able to use the response to create the model, how could you verify that it is correct?    What box office sales would we predict using this model if the budget is ?    "
 },
 {
   "id": "sec-summarizing-Excel-files",
   "level": "1",
   "url": "sec-summarizing-Excel-files.html",
   "type": "Section",
-  "number": "1.3",
+  "number": "1.2",
   "title": "Summarizing Excel Files",
   "body": " Summarizing Excel Files  Copilot is also helpful for gaining key insights about a dataset and generating questions that would be good to explore based on the data.   For each of the datasets below, list key insights about this dataset and generate questions based on this data.     Box Office Data:       2024 Olympic Medalists: This data is from        Dentists by State: This data is from .         Here are some other things you can do for each Excel file:   Generate a report based on the dataset.    Generate a PowerPoint presentation based on this dataset.     (For anything you ask Copilot to generate, check to see if what it generated is helpful.)   "
 },
@@ -86,9 +77,45 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-summarizing-Excel-files.html#sec-summarizing-Excel-files-3",
   "type": "Investigation",
-  "number": "1.3.1",
+  "number": "1.2.1",
   "title": "",
   "body": " For each of the datasets below, list key insights about this dataset and generate questions based on this data.     Box Office Data:       2024 Olympic Medalists: This data is from        Dentists by State: This data is from .         Here are some other things you can do for each Excel file:   Generate a report based on the dataset.    Generate a PowerPoint presentation based on this dataset.     (For anything you ask Copilot to generate, check to see if what it generated is helpful.)  "
+},
+{
+  "id": "sec-using-Copilot-to-learn-how",
+  "level": "1",
+  "url": "sec-using-Copilot-to-learn-how.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Using Copilot to Learn How to do Things in Excel or Generating Ideas for What to do",
+  "body": " Using Copilot to Learn How to do Things in Excel or Generating Ideas for What to do   At the moment, Copilot in Excel cannot do everything we might want it to do. However, it can still be helpful for providing guidance if we are not sure how to do something in Excel.  It can also be useful for getting ideas about what to do with a dataset and for better understanding concepts related to what we're doing.  Use this link to open an Excel file in Office 365: Dentists by state  This data is from .   Go to File and create a copy of this file online.   Dentist Geographic Heat Map We want to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.    Ask Copilot to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.  Did it create a heat map?    Copilot probably did not create a heat map. Let's ask it how we would do it ourselves using the prompt below.   How do I create a geographic heat map for the number of dentists per 100,000 resident population in each state in 2021?   Follow the instructions it gives to create the heat map.     Now we want to focus on what is happening in Colorado. We want to see how the number of dentists per 100,000 residents in Colorado changed from 2001 to 2021. Ask Copilot to Filter the table to only show rows that have a \"1\" in column M. Then apply the filter. Now we can go to Column I and choose to only show information for Colorado .   Let's say we want to find the average estimate for dentists per 100,000 resident population in the year 2021 (year). Use the following prompt to do this:  How would I find the average value in column P for rows in which column M is equal to \"1\" and column N is equal to \"2021\"?    Now let's make a confidence interval for the average estimate for dentists per 100,000 resident population in the year 2021 (year).  (Note: ....comment on why this might not make a lot of sense to do here....)  Use the prompt below:   How would I make a confidence interval for the average value in column P for rows in which column M is equal to \"1\" and column N is equal to \"2021\"?   Here are some additional questions we could ask:   What is a confidence interval?    Why did the formula use 1.96?    What is a standard deviation?    What would change if we wanted to change the level of confidence to ?    Can you explain what the confidence interval means in the context of this problem?       "
+},
+{
+  "id": "sec-using-Copilot-to-learn-how-3",
+  "level": "2",
+  "url": "sec-using-Copilot-to-learn-how.html#sec-using-Copilot-to-learn-how-3",
+  "type": "Example",
+  "number": "1.3.1",
+  "title": "Dentist Geographic Heat Map.",
+  "body": "Dentist Geographic Heat Map We want to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.    Ask Copilot to create a geographic heat map showing the number of dentists per 100,000 residents in each state in the U.S. in 2021.  Did it create a heat map?    Copilot probably did not create a heat map. Let's ask it how we would do it ourselves using the prompt below.   How do I create a geographic heat map for the number of dentists per 100,000 resident population in each state in 2021?   Follow the instructions it gives to create the heat map.    "
+},
+{
+  "id": "sec-using-Copilot-to-learn-how-4",
+  "level": "2",
+  "url": "sec-using-Copilot-to-learn-how.html#sec-using-Copilot-to-learn-how-4",
+  "type": "Example",
+  "number": "1.3.2",
+  "title": "",
+  "body": "Now we want to focus on what is happening in Colorado. We want to see how the number of dentists per 100,000 residents in Colorado changed from 2001 to 2021. Ask Copilot to Filter the table to only show rows that have a \"1\" in column M. Then apply the filter. Now we can go to Column I and choose to only show information for Colorado . "
+},
+{
+  "id": "sec-using-Copilot-to-learn-how-5",
+  "level": "2",
+  "url": "sec-using-Copilot-to-learn-how.html#sec-using-Copilot-to-learn-how-5",
+  "type": "Example",
+  "number": "1.3.3",
+  "title": "",
+  "body": " Let's say we want to find the average estimate for dentists per 100,000 resident population in the year 2021 (year). Use the following prompt to do this:  How would I find the average value in column P for rows in which column M is equal to \"1\" and column N is equal to \"2021\"?    Now let's make a confidence interval for the average estimate for dentists per 100,000 resident population in the year 2021 (year).  (Note: ....comment on why this might not make a lot of sense to do here....)  Use the prompt below:   How would I make a confidence interval for the average value in column P for rows in which column M is equal to \"1\" and column N is equal to \"2021\"?   Here are some additional questions we could ask:   What is a confidence interval?    Why did the formula use 1.96?    What is a standard deviation?    What would change if we wanted to change the level of confidence to ?    Can you explain what the confidence interval means in the context of this problem?      "
 },
 {
   "id": "sec-describe-visualization",
