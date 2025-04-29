@@ -71,23 +71,7 @@
                     </li>
                 </ul>
             </li>
-            <li>
-                <p>
-                    Automation and Advanced Features
-                </p>
-                <ul>
-                    <li>
-                        <p>
-                            Scripting: It can help you write Python or R scripts using Tableau’s integration with TabPy or Rserve.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Tableau extensions and APIs: Want to extend Tableau’s functionality with JavaScript or connect to external systems? It can help walk you through it.
-                        </p>
-                    </li>
-                </ul>
-            </li>
+            
             <li>
                 <p>
                     Documentation and Presentation
@@ -145,6 +129,15 @@ If you do not have Tableau installed on your computer, you can use the online ve
         <p>
             <url href="external/sheets/2024_Olympics_medalists_all.xlsx" />
         </p>
+
+        <p>
+            Use the link below to open and edit a Tableau workbook in Tableau Public that includes data from the 2024 Paris Olympics.
+        </p>
+
+        <p>
+            <url href="https://bit.ly/3GvwOPf">Link to Blank 2024 Olympic Medals Data</url>
+        </p>
+
 
         <p>
             Think about what visualizations would make sense to create with this data and create visualizations for a few different aspects of the data.
@@ -242,6 +235,35 @@ If you do not have Tableau installed on your computer, you can use the online ve
         We're going to use this file to create a geographic heat map in Tableau.
     </p>-->
 
+
+<tasks>
+
+    <task>
+        <statement>
+            <p>
+             Use generative AI to brainstorm and refine what a dashboard using this data should show based on a particular audience.
+    
+            </p>
+        </statement>
+    </task>
+    
+    <task>
+        <statement>
+            <p>
+                Use generative AI to recommend appropriate chart types based on the data.
+            </p>
+        </statement>
+    </task>
+    
+    <task>
+        <statement>
+            <p>
+                Create a dashboard in Tableau and use generative AI as needed for technical assistance.
+            </p>
+        </statement>
+    </task>
+    
+    </tasks>
     
     
   </exercise>

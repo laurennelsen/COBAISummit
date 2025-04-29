@@ -7,10 +7,16 @@
 Copilot is also helpful for gaining key insights about a dataset and generating questions that would be good to explore based on the data.
 </introduction>
 
+<note>
+    <p>
+        We're going to use the browser version of Copilot for this (instead of using Copilot within Excel).
+    </p>
+</note>
+
 <investigation>
 <p>
 
-For each of the datasets below, list key insights about this dataset and generate questions based on this data. 
+For each of the datasets below, <em>list key insights about this dataset and generate questions based on this data</em>. 
 
 </p>
 

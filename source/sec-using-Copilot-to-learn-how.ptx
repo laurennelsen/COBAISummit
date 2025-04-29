@@ -90,7 +90,7 @@ We want to create a geographic heat map showing the number of dentists per 100,0
     <tasks>  
         <task>
         <p>
-Let's say we want to find the average estimate for dentists per 100,000 resident population in the year 2021 (year).
+Let's say we want to estimate the average number of dentists per 100,000 resident population in the year 2021 per U.S. state.
 </p>
     <p>
         Use the following prompt to do this:
@@ -104,10 +104,10 @@ Let's say we want to find the average estimate for dentists per 100,000 resident
 <task>
     <statement>
         <p>
-            Now let's make a confidence interval for the average estimate for dentists per 100,000 resident population in the year 2021 (year).
+            Now let's make a confidence interval for the average estimate for dentists per 100,000 resident population in the year 2021 per U.S. state.
         </p>
         <p>
-            (Note:  ....comment on why this might not make a lot of sense to do here....)
+            (Note:  It is worth considering whether or not a confidence interval is meaningful here when the data might represent the entire <q>population</q>.)
         </p>
         <p>
             Use the prompt below:

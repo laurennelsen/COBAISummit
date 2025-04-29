@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-Using-Copilot-in-Excel" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Using Copilot in Excel</title>
+  <title>Demo:  Using Copilot with Excel</title>
 
   <introduction>
-    <p> Let's practice using Copilot inside an Excel document in Microsoft 365. </p>
+    <p>
+      We're going to see how to use Copilot inside an Excel document in Microsoft 365 and how to use Copilot to summarize an Excel file and generate key insights into the data.
+    </p>
   </introduction>
 
   <!-- include sections -->
