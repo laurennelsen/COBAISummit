@@ -79,6 +79,14 @@
             </p> 
             
         </li>
+        <li>
+            <p>
+                Enter the prompt below into Copilot and see if the output generated is helpful:
+            </p>
+            <p>
+               <q> List key insights about this dataset and generate questions based on this data.</q>
+            </p>
+        </li>
     </ul>
 </p>
 
@@ -89,14 +97,7 @@
     Let's now use Copilot in Excel to create data visualizations.
 </p>
 
-<exercise>
-    <p>
-        Enter the prompt below into Copilot and see if the output generated is helpful:
-    </p>
-    <p>
-       <q> List key insights about this dataset and generate questions based on this data.</q>
-    </p>
-</exercise>
+
 
 
 <exercise>
@@ -109,15 +110,16 @@
     <tasks>
         <task>
             <p>
-                Create a scatter plot for budget vs. worldwide sales.  (If you insert the chart into the Excel sheet, is the chart correct?)
+                Create a scatter plot for budget vs. worldwide sales.  (Try the prompt:  <q>Create a scatter plot using columns B and E.</q>)  
             </p>
-            <hint>
+            <!--<hint>
                 <p>
-                    Try the prompt: <q>Create a scatter plot using columns B and E.
-
-</q>
+                    Try the prompt: <q>Create a scatter plot using columns B and E.</q>
                 </p>
-            </hint>
+            </hint>-->
+            <p>
+                (If you insert the chart into the Excel sheet, is the chart correct?)
+            </p>
         </task>
         <task>
             <p>

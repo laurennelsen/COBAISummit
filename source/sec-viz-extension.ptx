@@ -11,7 +11,7 @@ Sometimes you might want to create a certain visualization in Tableau, but if it
   </introduction>
 
 
-<exercise>
+<exercise xml:id="Sankey">
     <title>Sankey Chart Using Viz Extension</title>
     
     <p>
